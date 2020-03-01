@@ -1,0 +1,6919 @@
+{
+    "frames": {
+        "wall-0tl": {
+            "frame": {
+                "x": 0,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "0110"
+        },
+        "wall-0wm": {
+            "frame": {
+                "x": 16,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "0101"
+        },
+        "wall-0tr": {
+            "frame": {
+                "x": 32,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "0011"
+        },
+        "wall-0nm": {
+            "frame": {
+                "x": 0,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "?010"
+        },
+        "wall-0nb": {
+            "frame": {
+                "x": 16,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "?000"
+        },
+        "wall-0bl": {
+            "frame": {
+                "x": 0,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "?100"
+        },
+        "wall-0br": {
+            "frame": {
+                "x": 32,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "?001"
+        },
+        "wall-0tm": {
+            "frame": {
+                "x": 64,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "0111"
+        },
+        "wall-0ml": {
+            "frame": {
+                "x": 48,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "1110"
+        },
+        "wall-0mm": {
+            "frame": {
+                "x": 64,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "1111"
+        },
+        "wall-0mr": {
+            "frame": {
+                "x": 80,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "1011"
+        },
+        "wall-0bm": {
+            "frame": {
+                "x": 64,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall0",
+            "map": "1101"
+        },
+        "wall-1tl": {
+            "frame": {
+                "x": 0,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "0110"
+        },
+        "wall-1wm": {
+            "frame": {
+                "x": 16,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "0101"
+        },
+        "wall-1tr": {
+            "frame": {
+                "x": 32,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "0011"
+        },
+        "wall-1nm": {
+            "frame": {
+                "x": 0,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "?010"
+        },
+        "wall-1nb": {
+            "frame": {
+                "x": 16,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "?000"
+        },
+        "wall-1bl": {
+            "frame": {
+                "x": 0,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "?100"
+        },
+        "wall-1br": {
+            "frame": {
+                "x": 32,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "?001"
+        },
+        "wall-1tm": {
+            "frame": {
+                "x": 64,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "0111"
+        },
+        "wall-1ml": {
+            "frame": {
+                "x": 48,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "1110"
+        },
+        "wall-1mm": {
+            "frame": {
+                "x": 64,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "1111"
+        },
+        "wall-1mr": {
+            "frame": {
+                "x": 80,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "1011"
+        },
+        "wall-1bm": {
+            "frame": {
+                "x": 64,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall1",
+            "map": "1101"
+        },
+        "wall-2tl": {
+            "frame": {
+                "x": 0,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "0110"
+        },
+        "wall-2wm": {
+            "frame": {
+                "x": 16,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "0101"
+        },
+        "wall-2tr": {
+            "frame": {
+                "x": 32,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "0011"
+        },
+        "wall-2nm": {
+            "frame": {
+                "x": 0,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "?010"
+        },
+        "wall-2nb": {
+            "frame": {
+                "x": 16,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "?000"
+        },
+        "wall-2bl": {
+            "frame": {
+                "x": 0,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "?100"
+        },
+        "wall-2br": {
+            "frame": {
+                "x": 32,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "?001"
+        },
+        "wall-2tm": {
+            "frame": {
+                "x": 64,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "0111"
+        },
+        "wall-2ml": {
+            "frame": {
+                "x": 48,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "1110"
+        },
+        "wall-2mm": {
+            "frame": {
+                "x": 64,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "1111"
+        },
+        "wall-2mr": {
+            "frame": {
+                "x": 80,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "1011"
+        },
+        "wall-2bm": {
+            "frame": {
+                "x": 64,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall2",
+            "map": "1101"
+        },
+        "wall-3tl": {
+            "frame": {
+                "x": 0,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "0110"
+        },
+        "wall-3wm": {
+            "frame": {
+                "x": 16,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "0101"
+        },
+        "wall-3tr": {
+            "frame": {
+                "x": 32,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "0011"
+        },
+        "wall-3nm": {
+            "frame": {
+                "x": 0,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "?010"
+        },
+        "wall-3nb": {
+            "frame": {
+                "x": 16,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "?000"
+        },
+        "wall-3bl": {
+            "frame": {
+                "x": 0,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "?100"
+        },
+        "wall-3br": {
+            "frame": {
+                "x": 32,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "?001"
+        },
+        "wall-3tm": {
+            "frame": {
+                "x": 64,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "0111"
+        },
+        "wall-3ml": {
+            "frame": {
+                "x": 48,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "1110"
+        },
+        "wall-3mm": {
+            "frame": {
+                "x": 64,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "1111"
+        },
+        "wall-3mr": {
+            "frame": {
+                "x": 80,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "1011"
+        },
+        "wall-3bm": {
+            "frame": {
+                "x": 64,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall3",
+            "map": "1101"
+        },
+        "wall-4tl": {
+            "frame": {
+                "x": 0,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "0110"
+        },
+        "wall-4wm": {
+            "frame": {
+                "x": 16,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "0101"
+        },
+        "wall-4tr": {
+            "frame": {
+                "x": 32,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "0011"
+        },
+        "wall-4nm": {
+            "frame": {
+                "x": 0,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "?010"
+        },
+        "wall-4nb": {
+            "frame": {
+                "x": 16,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "?000"
+        },
+        "wall-4bl": {
+            "frame": {
+                "x": 0,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "?100"
+        },
+        "wall-4br": {
+            "frame": {
+                "x": 32,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "?001"
+        },
+        "wall-4tm": {
+            "frame": {
+                "x": 64,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "0111"
+        },
+        "wall-4ml": {
+            "frame": {
+                "x": 48,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "1110"
+        },
+        "wall-4mm": {
+            "frame": {
+                "x": 64,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "1111"
+        },
+        "wall-4mr": {
+            "frame": {
+                "x": 80,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "1011"
+        },
+        "wall-4bm": {
+            "frame": {
+                "x": 64,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall4",
+            "map": "1101"
+        },
+        "wall-5tl": {
+            "frame": {
+                "x": 0,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "0110"
+        },
+        "wall-5wm": {
+            "frame": {
+                "x": 16,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "0101"
+        },
+        "wall-5tr": {
+            "frame": {
+                "x": 32,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "0011"
+        },
+        "wall-5nm": {
+            "frame": {
+                "x": 0,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "?010"
+        },
+        "wall-5nb": {
+            "frame": {
+                "x": 16,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "?000"
+        },
+        "wall-5bl": {
+            "frame": {
+                "x": 0,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "?100"
+        },
+        "wall-5br": {
+            "frame": {
+                "x": 32,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "?001"
+        },
+        "wall-5tm": {
+            "frame": {
+                "x": 64,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "0111"
+        },
+        "wall-5ml": {
+            "frame": {
+                "x": 48,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "1110"
+        },
+        "wall-5mm": {
+            "frame": {
+                "x": 64,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "1111"
+        },
+        "wall-5mr": {
+            "frame": {
+                "x": 80,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "1011"
+        },
+        "wall-5bm": {
+            "frame": {
+                "x": 64,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall5",
+            "map": "1101"
+        },
+        "wall-6tl": {
+            "frame": {
+                "x": 0,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "0110"
+        },
+        "wall-6wm": {
+            "frame": {
+                "x": 16,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "0101"
+        },
+        "wall-6tr": {
+            "frame": {
+                "x": 32,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "0011"
+        },
+        "wall-6nm": {
+            "frame": {
+                "x": 0,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "?010"
+        },
+        "wall-6nb": {
+            "frame": {
+                "x": 16,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "?000"
+        },
+        "wall-6bl": {
+            "frame": {
+                "x": 0,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "?100"
+        },
+        "wall-6br": {
+            "frame": {
+                "x": 32,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "?001"
+        },
+        "wall-6tm": {
+            "frame": {
+                "x": 64,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "0111"
+        },
+        "wall-6ml": {
+            "frame": {
+                "x": 48,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "1110"
+        },
+        "wall-6mm": {
+            "frame": {
+                "x": 64,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "1111"
+        },
+        "wall-6mr": {
+            "frame": {
+                "x": 80,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "1011"
+        },
+        "wall-6bm": {
+            "frame": {
+                "x": 64,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall6",
+            "map": "1101"
+        },
+        "wall-7tl": {
+            "frame": {
+                "x": 0,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "0110"
+        },
+        "wall-7wm": {
+            "frame": {
+                "x": 16,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "0101"
+        },
+        "wall-7tr": {
+            "frame": {
+                "x": 32,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "0011"
+        },
+        "wall-7nm": {
+            "frame": {
+                "x": 0,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "?010"
+        },
+        "wall-7nb": {
+            "frame": {
+                "x": 16,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "?000"
+        },
+        "wall-7bl": {
+            "frame": {
+                "x": 0,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "?100"
+        },
+        "wall-7br": {
+            "frame": {
+                "x": 32,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "?001"
+        },
+        "wall-7tm": {
+            "frame": {
+                "x": 64,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "0111"
+        },
+        "wall-7ml": {
+            "frame": {
+                "x": 48,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "1110"
+        },
+        "wall-7mm": {
+            "frame": {
+                "x": 64,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "1111"
+        },
+        "wall-7mr": {
+            "frame": {
+                "x": 80,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "1011"
+        },
+        "wall-7bm": {
+            "frame": {
+                "x": 64,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall7",
+            "map": "1101"
+        },
+        "wall-8tl": {
+            "frame": {
+                "x": 112,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "0110"
+        },
+        "wall-8wm": {
+            "frame": {
+                "x": 128,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "0101"
+        },
+        "wall-8tr": {
+            "frame": {
+                "x": 144,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "0011"
+        },
+        "wall-8nm": {
+            "frame": {
+                "x": 112,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "?010"
+        },
+        "wall-8nb": {
+            "frame": {
+                "x": 128,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "?000"
+        },
+        "wall-8bl": {
+            "frame": {
+                "x": 112,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "?100"
+        },
+        "wall-8br": {
+            "frame": {
+                "x": 144,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "?001"
+        },
+        "wall-8tm": {
+            "frame": {
+                "x": 176,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "0111"
+        },
+        "wall-8ml": {
+            "frame": {
+                "x": 160,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "1110"
+        },
+        "wall-8mm": {
+            "frame": {
+                "x": 176,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "1111"
+        },
+        "wall-8mr": {
+            "frame": {
+                "x": 192,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "1011"
+        },
+        "wall-8bm": {
+            "frame": {
+                "x": 176,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall8",
+            "map": "1101"
+        },
+        "wall-9tl": {
+            "frame": {
+                "x": 112,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "0110"
+        },
+        "wall-9wm": {
+            "frame": {
+                "x": 128,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "0101"
+        },
+        "wall-9tr": {
+            "frame": {
+                "x": 144,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "0011"
+        },
+        "wall-9nm": {
+            "frame": {
+                "x": 112,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "?010"
+        },
+        "wall-9nb": {
+            "frame": {
+                "x": 128,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "?000"
+        },
+        "wall-9bl": {
+            "frame": {
+                "x": 112,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "?100"
+        },
+        "wall-9br": {
+            "frame": {
+                "x": 144,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "?001"
+        },
+        "wall-9tm": {
+            "frame": {
+                "x": 176,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "0111"
+        },
+        "wall-9ml": {
+            "frame": {
+                "x": 160,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "1110"
+        },
+        "wall-9mm": {
+            "frame": {
+                "x": 176,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "1111"
+        },
+        "wall-9mr": {
+            "frame": {
+                "x": 192,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "1011"
+        },
+        "wall-9bm": {
+            "frame": {
+                "x": 176,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall9",
+            "map": "1101"
+        },
+        "wall-10tl": {
+            "frame": {
+                "x": 112,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "0110"
+        },
+        "wall-10wm": {
+            "frame": {
+                "x": 128,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "0101"
+        },
+        "wall-10tr": {
+            "frame": {
+                "x": 144,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "0011"
+        },
+        "wall-10nm": {
+            "frame": {
+                "x": 112,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "?010"
+        },
+        "wall-10nb": {
+            "frame": {
+                "x": 128,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "?000"
+        },
+        "wall-10bl": {
+            "frame": {
+                "x": 112,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "?100"
+        },
+        "wall-10br": {
+            "frame": {
+                "x": 144,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "?001"
+        },
+        "wall-10tm": {
+            "frame": {
+                "x": 176,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "0111"
+        },
+        "wall-10ml": {
+            "frame": {
+                "x": 160,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "1110"
+        },
+        "wall-10mm": {
+            "frame": {
+                "x": 176,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "1111"
+        },
+        "wall-10mr": {
+            "frame": {
+                "x": 192,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "1011"
+        },
+        "wall-10bm": {
+            "frame": {
+                "x": 176,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall10",
+            "map": "1101"
+        },
+        "wall-11tl": {
+            "frame": {
+                "x": 112,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "0110"
+        },
+        "wall-11wm": {
+            "frame": {
+                "x": 128,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "0101"
+        },
+        "wall-11tr": {
+            "frame": {
+                "x": 144,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "0011"
+        },
+        "wall-11nm": {
+            "frame": {
+                "x": 112,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "?010"
+        },
+        "wall-11nb": {
+            "frame": {
+                "x": 128,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "?000"
+        },
+        "wall-11bl": {
+            "frame": {
+                "x": 112,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "?100"
+        },
+        "wall-11br": {
+            "frame": {
+                "x": 144,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "?001"
+        },
+        "wall-11tm": {
+            "frame": {
+                "x": 176,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "0111"
+        },
+        "wall-11ml": {
+            "frame": {
+                "x": 160,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "1110"
+        },
+        "wall-11mm": {
+            "frame": {
+                "x": 176,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "1111"
+        },
+        "wall-11mr": {
+            "frame": {
+                "x": 192,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "1011"
+        },
+        "wall-11bm": {
+            "frame": {
+                "x": 176,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall11",
+            "map": "1101"
+        },
+        "wall-12tl": {
+            "frame": {
+                "x": 112,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "0110"
+        },
+        "wall-12wm": {
+            "frame": {
+                "x": 128,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "0101"
+        },
+        "wall-12tr": {
+            "frame": {
+                "x": 144,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "0011"
+        },
+        "wall-12nm": {
+            "frame": {
+                "x": 112,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "?010"
+        },
+        "wall-12nb": {
+            "frame": {
+                "x": 128,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "?000"
+        },
+        "wall-12bl": {
+            "frame": {
+                "x": 112,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "?100"
+        },
+        "wall-12br": {
+            "frame": {
+                "x": 144,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "?001"
+        },
+        "wall-12tm": {
+            "frame": {
+                "x": 176,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "0111"
+        },
+        "wall-12ml": {
+            "frame": {
+                "x": 160,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "1110"
+        },
+        "wall-12mm": {
+            "frame": {
+                "x": 176,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "1111"
+        },
+        "wall-12mr": {
+            "frame": {
+                "x": 192,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "1011"
+        },
+        "wall-12bm": {
+            "frame": {
+                "x": 176,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall12",
+            "map": "1101"
+        },
+        "wall-13tl": {
+            "frame": {
+                "x": 112,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "0110"
+        },
+        "wall-13wm": {
+            "frame": {
+                "x": 128,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "0101"
+        },
+        "wall-13tr": {
+            "frame": {
+                "x": 144,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "0011"
+        },
+        "wall-13nm": {
+            "frame": {
+                "x": 112,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "?010"
+        },
+        "wall-13nb": {
+            "frame": {
+                "x": 128,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "?000"
+        },
+        "wall-13bl": {
+            "frame": {
+                "x": 112,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "?100"
+        },
+        "wall-13br": {
+            "frame": {
+                "x": 144,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "?001"
+        },
+        "wall-13tm": {
+            "frame": {
+                "x": 176,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "0111"
+        },
+        "wall-13ml": {
+            "frame": {
+                "x": 160,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "1110"
+        },
+        "wall-13mm": {
+            "frame": {
+                "x": 176,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "1111"
+        },
+        "wall-13mr": {
+            "frame": {
+                "x": 192,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "1011"
+        },
+        "wall-13bm": {
+            "frame": {
+                "x": 176,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall13",
+            "map": "1101"
+        },
+        "wall-14tl": {
+            "frame": {
+                "x": 112,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "0110"
+        },
+        "wall-14wm": {
+            "frame": {
+                "x": 128,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "0101"
+        },
+        "wall-14tr": {
+            "frame": {
+                "x": 144,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "0011"
+        },
+        "wall-14nm": {
+            "frame": {
+                "x": 112,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "?010"
+        },
+        "wall-14nb": {
+            "frame": {
+                "x": 128,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "?000"
+        },
+        "wall-14bl": {
+            "frame": {
+                "x": 112,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "?100"
+        },
+        "wall-14br": {
+            "frame": {
+                "x": 144,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "?001"
+        },
+        "wall-14tm": {
+            "frame": {
+                "x": 176,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "0111"
+        },
+        "wall-14ml": {
+            "frame": {
+                "x": 160,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "1110"
+        },
+        "wall-14mm": {
+            "frame": {
+                "x": 176,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "1111"
+        },
+        "wall-14mr": {
+            "frame": {
+                "x": 192,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "1011"
+        },
+        "wall-14bm": {
+            "frame": {
+                "x": 176,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall14",
+            "map": "1101"
+        },
+        "wall-15tl": {
+            "frame": {
+                "x": 112,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "0110"
+        },
+        "wall-15wm": {
+            "frame": {
+                "x": 128,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "0101"
+        },
+        "wall-15tr": {
+            "frame": {
+                "x": 144,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "0011"
+        },
+        "wall-15nm": {
+            "frame": {
+                "x": 112,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "?010"
+        },
+        "wall-15nb": {
+            "frame": {
+                "x": 128,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "?000"
+        },
+        "wall-15bl": {
+            "frame": {
+                "x": 112,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "?100"
+        },
+        "wall-15br": {
+            "frame": {
+                "x": 144,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "?001"
+        },
+        "wall-15tm": {
+            "frame": {
+                "x": 176,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "0111"
+        },
+        "wall-15ml": {
+            "frame": {
+                "x": 160,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "1110"
+        },
+        "wall-15mm": {
+            "frame": {
+                "x": 176,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "1111"
+        },
+        "wall-15mr": {
+            "frame": {
+                "x": 192,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "1011"
+        },
+        "wall-15bm": {
+            "frame": {
+                "x": 176,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall15",
+            "map": "1101"
+        },
+        "wall-16tl": {
+            "frame": {
+                "x": 224,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "0110"
+        },
+        "wall-16wm": {
+            "frame": {
+                "x": 240,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "0101"
+        },
+        "wall-16tr": {
+            "frame": {
+                "x": 256,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "0011"
+        },
+        "wall-16nm": {
+            "frame": {
+                "x": 224,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "?010"
+        },
+        "wall-16nb": {
+            "frame": {
+                "x": 240,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "?000"
+        },
+        "wall-16bl": {
+            "frame": {
+                "x": 224,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "?100"
+        },
+        "wall-16br": {
+            "frame": {
+                "x": 256,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "?001"
+        },
+        "wall-16tm": {
+            "frame": {
+                "x": 288,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "0111"
+        },
+        "wall-16ml": {
+            "frame": {
+                "x": 272,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "1110"
+        },
+        "wall-16mm": {
+            "frame": {
+                "x": 288,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "1111"
+        },
+        "wall-16mr": {
+            "frame": {
+                "x": 304,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "1011"
+        },
+        "wall-16bm": {
+            "frame": {
+                "x": 288,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall16",
+            "map": "1101"
+        },
+        "wall-17tl": {
+            "frame": {
+                "x": 224,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "0110"
+        },
+        "wall-17wm": {
+            "frame": {
+                "x": 240,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "0101"
+        },
+        "wall-17tr": {
+            "frame": {
+                "x": 256,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "0011"
+        },
+        "wall-17nm": {
+            "frame": {
+                "x": 224,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "?010"
+        },
+        "wall-17nb": {
+            "frame": {
+                "x": 240,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "?000"
+        },
+        "wall-17bl": {
+            "frame": {
+                "x": 224,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "?100"
+        },
+        "wall-17br": {
+            "frame": {
+                "x": 256,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "?001"
+        },
+        "wall-17tm": {
+            "frame": {
+                "x": 288,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "0111"
+        },
+        "wall-17ml": {
+            "frame": {
+                "x": 272,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "1110"
+        },
+        "wall-17mm": {
+            "frame": {
+                "x": 288,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "1111"
+        },
+        "wall-17mr": {
+            "frame": {
+                "x": 304,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "1011"
+        },
+        "wall-17bm": {
+            "frame": {
+                "x": 288,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall17",
+            "map": "1101"
+        },
+        "wall-18tl": {
+            "frame": {
+                "x": 224,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "0110"
+        },
+        "wall-18wm": {
+            "frame": {
+                "x": 240,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "0101"
+        },
+        "wall-18tr": {
+            "frame": {
+                "x": 256,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "0011"
+        },
+        "wall-18nm": {
+            "frame": {
+                "x": 224,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "?010"
+        },
+        "wall-18nb": {
+            "frame": {
+                "x": 240,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "?000"
+        },
+        "wall-18bl": {
+            "frame": {
+                "x": 224,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "?100"
+        },
+        "wall-18br": {
+            "frame": {
+                "x": 256,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "?001"
+        },
+        "wall-18tm": {
+            "frame": {
+                "x": 288,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "0111"
+        },
+        "wall-18ml": {
+            "frame": {
+                "x": 272,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "1110"
+        },
+        "wall-18mm": {
+            "frame": {
+                "x": 288,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "1111"
+        },
+        "wall-18mr": {
+            "frame": {
+                "x": 304,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "1011"
+        },
+        "wall-18bm": {
+            "frame": {
+                "x": 288,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall18",
+            "map": "1101"
+        },
+        "wall-19tl": {
+            "frame": {
+                "x": 224,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "0110"
+        },
+        "wall-19wm": {
+            "frame": {
+                "x": 240,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "0101"
+        },
+        "wall-19tr": {
+            "frame": {
+                "x": 256,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "0011"
+        },
+        "wall-19nm": {
+            "frame": {
+                "x": 224,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "?010"
+        },
+        "wall-19nb": {
+            "frame": {
+                "x": 240,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "?000"
+        },
+        "wall-19bl": {
+            "frame": {
+                "x": 224,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "?100"
+        },
+        "wall-19br": {
+            "frame": {
+                "x": 256,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "?001"
+        },
+        "wall-19tm": {
+            "frame": {
+                "x": 288,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "0111"
+        },
+        "wall-19ml": {
+            "frame": {
+                "x": 272,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "1110"
+        },
+        "wall-19mm": {
+            "frame": {
+                "x": 288,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "1111"
+        },
+        "wall-19mr": {
+            "frame": {
+                "x": 304,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "1011"
+        },
+        "wall-19bm": {
+            "frame": {
+                "x": 288,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall19",
+            "map": "1101"
+        },
+        "wall-20tl": {
+            "frame": {
+                "x": 224,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "0110"
+        },
+        "wall-20wm": {
+            "frame": {
+                "x": 240,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "0101"
+        },
+        "wall-20tr": {
+            "frame": {
+                "x": 256,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "0011"
+        },
+        "wall-20nm": {
+            "frame": {
+                "x": 224,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "?010"
+        },
+        "wall-20nb": {
+            "frame": {
+                "x": 240,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "?000"
+        },
+        "wall-20bl": {
+            "frame": {
+                "x": 224,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "?100"
+        },
+        "wall-20br": {
+            "frame": {
+                "x": 256,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "?001"
+        },
+        "wall-20tm": {
+            "frame": {
+                "x": 288,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "0111"
+        },
+        "wall-20ml": {
+            "frame": {
+                "x": 272,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "1110"
+        },
+        "wall-20mm": {
+            "frame": {
+                "x": 288,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "1111"
+        },
+        "wall-20mr": {
+            "frame": {
+                "x": 304,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "1011"
+        },
+        "wall-20bm": {
+            "frame": {
+                "x": 288,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall20",
+            "map": "1101"
+        },
+        "wall-21tl": {
+            "frame": {
+                "x": 224,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "0110"
+        },
+        "wall-21wm": {
+            "frame": {
+                "x": 240,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "0101"
+        },
+        "wall-21tr": {
+            "frame": {
+                "x": 256,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "0011"
+        },
+        "wall-21nm": {
+            "frame": {
+                "x": 224,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "?010"
+        },
+        "wall-21nb": {
+            "frame": {
+                "x": 240,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "?000"
+        },
+        "wall-21bl": {
+            "frame": {
+                "x": 224,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "?100"
+        },
+        "wall-21br": {
+            "frame": {
+                "x": 256,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "?001"
+        },
+        "wall-21tm": {
+            "frame": {
+                "x": 288,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "0111"
+        },
+        "wall-21ml": {
+            "frame": {
+                "x": 272,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "1110"
+        },
+        "wall-21mm": {
+            "frame": {
+                "x": 288,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "1111"
+        },
+        "wall-21mr": {
+            "frame": {
+                "x": 304,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "1011"
+        },
+        "wall-21bm": {
+            "frame": {
+                "x": 288,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall21",
+            "map": "1101"
+        },
+        "wall-22tl": {
+            "frame": {
+                "x": 224,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "0110"
+        },
+        "wall-22wm": {
+            "frame": {
+                "x": 240,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "0101"
+        },
+        "wall-22tr": {
+            "frame": {
+                "x": 256,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "0011"
+        },
+        "wall-22nm": {
+            "frame": {
+                "x": 224,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "?010"
+        },
+        "wall-22nb": {
+            "frame": {
+                "x": 240,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "?000"
+        },
+        "wall-22bl": {
+            "frame": {
+                "x": 224,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "?100"
+        },
+        "wall-22br": {
+            "frame": {
+                "x": 256,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "?001"
+        },
+        "wall-22tm": {
+            "frame": {
+                "x": 288,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "0111"
+        },
+        "wall-22ml": {
+            "frame": {
+                "x": 272,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "1110"
+        },
+        "wall-22mm": {
+            "frame": {
+                "x": 288,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "1111"
+        },
+        "wall-22mr": {
+            "frame": {
+                "x": 304,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "1011"
+        },
+        "wall-22bm": {
+            "frame": {
+                "x": 288,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall22",
+            "map": "1101"
+        },
+        "wall-23tl": {
+            "frame": {
+                "x": 224,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "0110"
+        },
+        "wall-23wm": {
+            "frame": {
+                "x": 240,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "0101"
+        },
+        "wall-23tr": {
+            "frame": {
+                "x": 256,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "0011"
+        },
+        "wall-23nm": {
+            "frame": {
+                "x": 224,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "?010"
+        },
+        "wall-23nb": {
+            "frame": {
+                "x": 240,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "?000"
+        },
+        "wall-23bl": {
+            "frame": {
+                "x": 224,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "?100"
+        },
+        "wall-23br": {
+            "frame": {
+                "x": 256,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "?001"
+        },
+        "wall-23tm": {
+            "frame": {
+                "x": 288,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "0111"
+        },
+        "wall-23ml": {
+            "frame": {
+                "x": 272,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "1110"
+        },
+        "wall-23mm": {
+            "frame": {
+                "x": 288,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "1111"
+        },
+        "wall-23mr": {
+            "frame": {
+                "x": 304,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "1011"
+        },
+        "wall-23bm": {
+            "frame": {
+                "x": 288,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "wall",
+            "set": "wall23",
+            "map": "1101"
+        }
+    },
+    "meta": {
+        "image": "Objects/Wall.png"
+    }
+}

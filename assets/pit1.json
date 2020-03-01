@@ -1,0 +1,3967 @@
+{
+    "frames": {
+        "pit1-0tl": {
+            "frame": {
+                "x": 0,
+                "y": 32,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "00?1???0"
+        },
+        "pit1-0tm": {
+            "frame": {
+                "x": 16,
+                "y": 32,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "?0?1???1"
+        },
+        "pit1-0tr": {
+            "frame": {
+                "x": 32,
+                "y": 32,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "?000???1"
+        },
+        "pit1-0ml": {
+            "frame": {
+                "x": 0,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "?1?1???0"
+        },
+        "pit1-0mm": {
+            "frame": {
+                "x": 16,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "1111???1"
+        },
+        "pit1-0mr": {
+            "frame": {
+                "x": 32,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "?1?0???1"
+        },
+        "pit1-0nt": {
+            "frame": {
+                "x": 64,
+                "y": 32,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "0000???0"
+        },
+        "pit1-0nm": {
+            "frame": {
+                "x": 64,
+                "y": 48,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "?1?0?1?0"
+        },
+        "pit1-0bl": {
+            "frame": {
+                "x": 80,
+                "y": 32,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "0111???1"
+        },
+        "pit1-0np": {
+            "frame": {
+                "x": 96,
+                "y": 32,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "0101???1"
+        },
+        "pit1-0br": {
+            "frame": {
+                "x": 112,
+                "y": 32,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit0",
+            "map": "1101???1"
+        },
+        "pit1-1tl": {
+            "frame": {
+                "x": 0,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "00?1???0"
+        },
+        "pit1-1tm": {
+            "frame": {
+                "x": 16,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "?0?1???1"
+        },
+        "pit1-1tr": {
+            "frame": {
+                "x": 32,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "?000???1"
+        },
+        "pit1-1ml": {
+            "frame": {
+                "x": 0,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "?1?1???0"
+        },
+        "pit1-1mm": {
+            "frame": {
+                "x": 16,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "1111???1"
+        },
+        "pit1-1mr": {
+            "frame": {
+                "x": 32,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "?1?0???1"
+        },
+        "pit1-1nt": {
+            "frame": {
+                "x": 64,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "0000???0"
+        },
+        "pit1-1nm": {
+            "frame": {
+                "x": 64,
+                "y": 80,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "?1?0?1?0"
+        },
+        "pit1-1bl": {
+            "frame": {
+                "x": 80,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "0111???1"
+        },
+        "pit1-1np": {
+            "frame": {
+                "x": 96,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "0101???1"
+        },
+        "pit1-1br": {
+            "frame": {
+                "x": 112,
+                "y": 64,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit1",
+            "map": "1101???1"
+        },
+        "pit1-2tl": {
+            "frame": {
+                "x": 0,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "00?1???0"
+        },
+        "pit1-2tm": {
+            "frame": {
+                "x": 16,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "?0?1???1"
+        },
+        "pit1-2tr": {
+            "frame": {
+                "x": 32,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "?000???1"
+        },
+        "pit1-2ml": {
+            "frame": {
+                "x": 0,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "?1?1???0"
+        },
+        "pit1-2mm": {
+            "frame": {
+                "x": 16,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "1111???1"
+        },
+        "pit1-2mr": {
+            "frame": {
+                "x": 32,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "?1?0???1"
+        },
+        "pit1-2nt": {
+            "frame": {
+                "x": 64,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "0000???0"
+        },
+        "pit1-2nm": {
+            "frame": {
+                "x": 64,
+                "y": 112,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "?1?0?1?0"
+        },
+        "pit1-2bl": {
+            "frame": {
+                "x": 80,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "0111???1"
+        },
+        "pit1-2np": {
+            "frame": {
+                "x": 96,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "0101???1"
+        },
+        "pit1-2br": {
+            "frame": {
+                "x": 112,
+                "y": 96,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit2",
+            "map": "1101???1"
+        },
+        "pit1-3tl": {
+            "frame": {
+                "x": 0,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "00?1???0"
+        },
+        "pit1-3tm": {
+            "frame": {
+                "x": 16,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "?0?1???1"
+        },
+        "pit1-3tr": {
+            "frame": {
+                "x": 32,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "?000???1"
+        },
+        "pit1-3ml": {
+            "frame": {
+                "x": 0,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "?1?1???0"
+        },
+        "pit1-3mm": {
+            "frame": {
+                "x": 16,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "1111???1"
+        },
+        "pit1-3mr": {
+            "frame": {
+                "x": 32,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "?1?0???1"
+        },
+        "pit1-3nt": {
+            "frame": {
+                "x": 64,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "0000???0"
+        },
+        "pit1-3nm": {
+            "frame": {
+                "x": 64,
+                "y": 144,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "?1?0?1?0"
+        },
+        "pit1-3bl": {
+            "frame": {
+                "x": 80,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "0111???1"
+        },
+        "pit1-3np": {
+            "frame": {
+                "x": 96,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "0101???1"
+        },
+        "pit1-3br": {
+            "frame": {
+                "x": 112,
+                "y": 128,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit3",
+            "map": "1101???1"
+        },
+        "pit1-4tl": {
+            "frame": {
+                "x": 0,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "00?1???0"
+        },
+        "pit1-4tm": {
+            "frame": {
+                "x": 16,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "?0?1???1"
+        },
+        "pit1-4tr": {
+            "frame": {
+                "x": 32,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "?000???1"
+        },
+        "pit1-4ml": {
+            "frame": {
+                "x": 0,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "?1?1???0"
+        },
+        "pit1-4mm": {
+            "frame": {
+                "x": 16,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "1111???1"
+        },
+        "pit1-4mr": {
+            "frame": {
+                "x": 32,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "?1?0???1"
+        },
+        "pit1-4nt": {
+            "frame": {
+                "x": 64,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "0000???0"
+        },
+        "pit1-4nm": {
+            "frame": {
+                "x": 64,
+                "y": 176,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "?1?0?1?0"
+        },
+        "pit1-4bl": {
+            "frame": {
+                "x": 80,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "0111???1"
+        },
+        "pit1-4np": {
+            "frame": {
+                "x": 96,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "0101???1"
+        },
+        "pit1-4br": {
+            "frame": {
+                "x": 112,
+                "y": 160,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit4",
+            "map": "1101???1"
+        },
+        "pit1-5tl": {
+            "frame": {
+                "x": 0,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "00?1???0"
+        },
+        "pit1-5tm": {
+            "frame": {
+                "x": 16,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "?0?1???1"
+        },
+        "pit1-5tr": {
+            "frame": {
+                "x": 32,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "?000???1"
+        },
+        "pit1-5ml": {
+            "frame": {
+                "x": 0,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "?1?1???0"
+        },
+        "pit1-5mm": {
+            "frame": {
+                "x": 16,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "1111???1"
+        },
+        "pit1-5mr": {
+            "frame": {
+                "x": 32,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "?1?0???1"
+        },
+        "pit1-5nt": {
+            "frame": {
+                "x": 64,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "0000???0"
+        },
+        "pit1-5nm": {
+            "frame": {
+                "x": 64,
+                "y": 208,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "?1?0?1?0"
+        },
+        "pit1-5bl": {
+            "frame": {
+                "x": 80,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "0111???1"
+        },
+        "pit1-5np": {
+            "frame": {
+                "x": 96,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "0101???1"
+        },
+        "pit1-5br": {
+            "frame": {
+                "x": 112,
+                "y": 192,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit5",
+            "map": "1101???1"
+        },
+        "pit1-6tl": {
+            "frame": {
+                "x": 0,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "00?1???0"
+        },
+        "pit1-6tm": {
+            "frame": {
+                "x": 16,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "?0?1???1"
+        },
+        "pit1-6tr": {
+            "frame": {
+                "x": 32,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "?000???1"
+        },
+        "pit1-6ml": {
+            "frame": {
+                "x": 0,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "?1?1???0"
+        },
+        "pit1-6mm": {
+            "frame": {
+                "x": 16,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "1111???1"
+        },
+        "pit1-6mr": {
+            "frame": {
+                "x": 32,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "?1?0???1"
+        },
+        "pit1-6nt": {
+            "frame": {
+                "x": 64,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "0000???0"
+        },
+        "pit1-6nm": {
+            "frame": {
+                "x": 64,
+                "y": 240,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "?1?0?1?0"
+        },
+        "pit1-6bl": {
+            "frame": {
+                "x": 80,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "0111???1"
+        },
+        "pit1-6np": {
+            "frame": {
+                "x": 96,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "0101???1"
+        },
+        "pit1-6br": {
+            "frame": {
+                "x": 112,
+                "y": 224,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit6",
+            "map": "1101???1"
+        },
+        "pit1-7tl": {
+            "frame": {
+                "x": 0,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "00?1???0"
+        },
+        "pit1-7tm": {
+            "frame": {
+                "x": 16,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "?0?1???1"
+        },
+        "pit1-7tr": {
+            "frame": {
+                "x": 32,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "?000???1"
+        },
+        "pit1-7ml": {
+            "frame": {
+                "x": 0,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "?1?1???0"
+        },
+        "pit1-7mm": {
+            "frame": {
+                "x": 16,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "1111???1"
+        },
+        "pit1-7mr": {
+            "frame": {
+                "x": 32,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "?1?0???1"
+        },
+        "pit1-7nt": {
+            "frame": {
+                "x": 64,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "0000???0"
+        },
+        "pit1-7nm": {
+            "frame": {
+                "x": 64,
+                "y": 272,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "?1?0?1?0"
+        },
+        "pit1-7bl": {
+            "frame": {
+                "x": 80,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "0111???1"
+        },
+        "pit1-7np": {
+            "frame": {
+                "x": 96,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "0101???1"
+        },
+        "pit1-7br": {
+            "frame": {
+                "x": 112,
+                "y": 256,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit7",
+            "map": "1101???1"
+        },
+        "pit1-8tl": {
+            "frame": {
+                "x": 0,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "00?1???0"
+        },
+        "pit1-8tm": {
+            "frame": {
+                "x": 16,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "?0?1???1"
+        },
+        "pit1-8tr": {
+            "frame": {
+                "x": 32,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "?000???1"
+        },
+        "pit1-8ml": {
+            "frame": {
+                "x": 0,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "?1?1???0"
+        },
+        "pit1-8mm": {
+            "frame": {
+                "x": 16,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "1111???1"
+        },
+        "pit1-8mr": {
+            "frame": {
+                "x": 32,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "?1?0???1"
+        },
+        "pit1-8nt": {
+            "frame": {
+                "x": 64,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "0000???0"
+        },
+        "pit1-8nm": {
+            "frame": {
+                "x": 64,
+                "y": 304,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "?1?0?1?0"
+        },
+        "pit1-8bl": {
+            "frame": {
+                "x": 80,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "0111???1"
+        },
+        "pit1-8np": {
+            "frame": {
+                "x": 96,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "0101???1"
+        },
+        "pit1-8br": {
+            "frame": {
+                "x": 112,
+                "y": 288,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit8",
+            "map": "1101???1"
+        },
+        "pit1-9tl": {
+            "frame": {
+                "x": 0,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "00?1???0"
+        },
+        "pit1-9tm": {
+            "frame": {
+                "x": 16,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "?0?1???1"
+        },
+        "pit1-9tr": {
+            "frame": {
+                "x": 32,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "?000???1"
+        },
+        "pit1-9ml": {
+            "frame": {
+                "x": 0,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "?1?1???0"
+        },
+        "pit1-9mm": {
+            "frame": {
+                "x": 16,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "1111???1"
+        },
+        "pit1-9mr": {
+            "frame": {
+                "x": 32,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "?1?0???1"
+        },
+        "pit1-9nt": {
+            "frame": {
+                "x": 64,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "0000???0"
+        },
+        "pit1-9nm": {
+            "frame": {
+                "x": 64,
+                "y": 336,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "?1?0?1?0"
+        },
+        "pit1-9bl": {
+            "frame": {
+                "x": 80,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "0111???1"
+        },
+        "pit1-9np": {
+            "frame": {
+                "x": 96,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "0101???1"
+        },
+        "pit1-9br": {
+            "frame": {
+                "x": 112,
+                "y": 320,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit9",
+            "map": "1101???1"
+        },
+        "pit1-10tl": {
+            "frame": {
+                "x": 0,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "00?1???0"
+        },
+        "pit1-10tm": {
+            "frame": {
+                "x": 16,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "?0?1???1"
+        },
+        "pit1-10tr": {
+            "frame": {
+                "x": 32,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "?000???1"
+        },
+        "pit1-10ml": {
+            "frame": {
+                "x": 0,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "?1?1???0"
+        },
+        "pit1-10mm": {
+            "frame": {
+                "x": 16,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "1111???1"
+        },
+        "pit1-10mr": {
+            "frame": {
+                "x": 32,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "?1?0???1"
+        },
+        "pit1-10nt": {
+            "frame": {
+                "x": 64,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "0000???0"
+        },
+        "pit1-10nm": {
+            "frame": {
+                "x": 64,
+                "y": 368,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "?1?0?1?0"
+        },
+        "pit1-10bl": {
+            "frame": {
+                "x": 80,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "0111???1"
+        },
+        "pit1-10np": {
+            "frame": {
+                "x": 96,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "0101???1"
+        },
+        "pit1-10br": {
+            "frame": {
+                "x": 112,
+                "y": 352,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit10",
+            "map": "1101???1"
+        },
+        "pit1-11tl": {
+            "frame": {
+                "x": 0,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "00?1???0"
+        },
+        "pit1-11tm": {
+            "frame": {
+                "x": 16,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "?0?1???1"
+        },
+        "pit1-11tr": {
+            "frame": {
+                "x": 32,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "?000???1"
+        },
+        "pit1-11ml": {
+            "frame": {
+                "x": 0,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "?1?1???0"
+        },
+        "pit1-11mm": {
+            "frame": {
+                "x": 16,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "1111???1"
+        },
+        "pit1-11mr": {
+            "frame": {
+                "x": 32,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "?1?0???1"
+        },
+        "pit1-11nt": {
+            "frame": {
+                "x": 64,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "0000???0"
+        },
+        "pit1-11nm": {
+            "frame": {
+                "x": 64,
+                "y": 400,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "?1?0?1?0"
+        },
+        "pit1-11bl": {
+            "frame": {
+                "x": 80,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "0111???1"
+        },
+        "pit1-11np": {
+            "frame": {
+                "x": 96,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "0101???1"
+        },
+        "pit1-11br": {
+            "frame": {
+                "x": 112,
+                "y": 384,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit11",
+            "map": "1101???1"
+        },
+        "pit1-12tl": {
+            "frame": {
+                "x": 0,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "00?1???0"
+        },
+        "pit1-12tm": {
+            "frame": {
+                "x": 16,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "?0?1???1"
+        },
+        "pit1-12tr": {
+            "frame": {
+                "x": 32,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "?000???1"
+        },
+        "pit1-12ml": {
+            "frame": {
+                "x": 0,
+                "y": 432,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "?1?1???0"
+        },
+        "pit1-12mm": {
+            "frame": {
+                "x": 16,
+                "y": 432,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "1111???1"
+        },
+        "pit1-12mr": {
+            "frame": {
+                "x": 32,
+                "y": 432,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "?1?0???1"
+        },
+        "pit1-12nt": {
+            "frame": {
+                "x": 64,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "0000???0"
+        },
+        "pit1-12nm": {
+            "frame": {
+                "x": 64,
+                "y": 432,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "?1?0?1?0"
+        },
+        "pit1-12bl": {
+            "frame": {
+                "x": 80,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "0111???1"
+        },
+        "pit1-12np": {
+            "frame": {
+                "x": 96,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "0101???1"
+        },
+        "pit1-12br": {
+            "frame": {
+                "x": 112,
+                "y": 416,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit12",
+            "map": "1101???1"
+        },
+        "pit1-13tl": {
+            "frame": {
+                "x": 0,
+                "y": 448,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "00?1???0"
+        },
+        "pit1-13tm": {
+            "frame": {
+                "x": 16,
+                "y": 448,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "?0?1???1"
+        },
+        "pit1-13tr": {
+            "frame": {
+                "x": 32,
+                "y": 448,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "?000???1"
+        },
+        "pit1-13ml": {
+            "frame": {
+                "x": 0,
+                "y": 464,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "?1?1???0"
+        },
+        "pit1-13mm": {
+            "frame": {
+                "x": 16,
+                "y": 464,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "1111???1"
+        },
+        "pit1-13mr": {
+            "frame": {
+                "x": 32,
+                "y": 464,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "?1?0???1"
+        },
+        "pit1-13nt": {
+            "frame": {
+                "x": 64,
+                "y": 448,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "0000???0"
+        },
+        "pit1-13nm": {
+            "frame": {
+                "x": 64,
+                "y": 464,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "?1?0?1?0"
+        },
+        "pit1-13bl": {
+            "frame": {
+                "x": 80,
+                "y": 448,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "0111???1"
+        },
+        "pit1-13np": {
+            "frame": {
+                "x": 96,
+                "y": 448,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "0101???1"
+        },
+        "pit1-13br": {
+            "frame": {
+                "x": 112,
+                "y": 448,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit13",
+            "map": "1101???1"
+        },
+        "pit1-14tl": {
+            "frame": {
+                "x": 0,
+                "y": 480,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "00?1???0"
+        },
+        "pit1-14tm": {
+            "frame": {
+                "x": 16,
+                "y": 480,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "?0?1???1"
+        },
+        "pit1-14tr": {
+            "frame": {
+                "x": 32,
+                "y": 480,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "?000???1"
+        },
+        "pit1-14ml": {
+            "frame": {
+                "x": 0,
+                "y": 496,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "?1?1???0"
+        },
+        "pit1-14mm": {
+            "frame": {
+                "x": 16,
+                "y": 496,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "1111???1"
+        },
+        "pit1-14mr": {
+            "frame": {
+                "x": 32,
+                "y": 496,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "?1?0???1"
+        },
+        "pit1-14nt": {
+            "frame": {
+                "x": 64,
+                "y": 480,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "0000???0"
+        },
+        "pit1-14nm": {
+            "frame": {
+                "x": 64,
+                "y": 496,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "?1?0?1?0"
+        },
+        "pit1-14bl": {
+            "frame": {
+                "x": 80,
+                "y": 480,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "0111???1"
+        },
+        "pit1-14np": {
+            "frame": {
+                "x": 96,
+                "y": 480,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "0101???1"
+        },
+        "pit1-14br": {
+            "frame": {
+                "x": 112,
+                "y": 480,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "default": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            },
+            "group": "pit",
+            "set": "pit14",
+            "map": "1101???1"
+        }
+    },
+    "meta": {
+        "image": "Objects/Pit1.png"
+    }
+}
