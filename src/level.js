@@ -20,14 +20,13 @@ class Level extends Scene.Scene {
       this.ecs.registerComponent(cname, Components[cname]);
     }
     this.ecs.registerTags(Tags);
-    this.ecs.addSystem('tiles', new TileSystem(this.ecs, this));
     this.ecs.addSystem('2frame', new SwitchFrameSystem(this.ecs, this));
     this.ecs.addSystem('actions', new ActionSystem(this.ecs, this));
   }
 
   standUp() {
 
-    this.ecs.createEntity({
+    const map = this.ecs.createEntity({
       id: 'map',
       tags: ['New'],
       Map: {
@@ -39,8 +38,9 @@ class Level extends Scene.Scene {
         'char': {}
       }
     });
+    this.ecs.addSystem('tiles', new TileSystem(this.ecs, this, map));
 
-    this.map = new TileMap.TileMap(this);
+    this.map = new TileMap.TileMap(this, map);
     this.map.setScale(2);
     this.ui = new Pixi.Container();
 
@@ -159,7 +159,7 @@ class Level extends Scene.Scene {
       for (let col = 0; col < 18; col++) {
         if (row === 0 || row === 24 || col === 0 || col === 17) {
           this.ecs.createEntity({
-            tags: ['New'],
+            tags: ['New', 'Impassable'],
             Tile: {
               startX: row,
               startY: col,

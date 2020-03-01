@@ -10,11 +10,12 @@ module.exports = function (Pixi) {
   };
   class TileMap extends Pixi.Container {
 
-    constructor(parent, options) {
+    constructor(parent, mapEntity) {
 
       super();
+      this.mapEntity = mapEntity;
       this.options = {};
-      Object.assign(this.options, defaultTileMapOptions, options)
+      Object.assign(this.options, defaultTileMapOptions)
       this.parent = parent;
       this.parent.addChild(this);
       this.layers = {};

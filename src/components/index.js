@@ -1,5 +1,14 @@
 module.exports = {
 
+  Game: {
+    properties: {
+      game: '',
+      tilemap: '',
+      dt: 0,
+      du: 0
+    }
+  },
+
   Tile: {
     properties: {
       startX: 0,
@@ -24,10 +33,16 @@ module.exports = {
 
   Map: {
     properties: {
-      x: 0,
-      y: 0,
+      x: '<Pointer container.x>',
+      y: '<Pointer container.y>',
+      tileWidth: 16,
+      tileHeight: 16,
+      width: 100,
+      height: 100,
+      zoom: 2,
       container: null,
-      tileByMap: {}
+      tileByMap: {},
+      tileInfo: {}
     }
   },
 
