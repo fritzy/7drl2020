@@ -1,12 +1,28 @@
 const Pixi = require('pixi.js');
 const Scene = require('./scene');
 const TileMap = require('./tilemap')(Pixi);
+const ECS = require('@fritzy/ecs');
+const Input = require('./input');
+const Components = require('./components/index');
+const Tags = require('./components/tags');
+const TileSystem = require('./systems/tiles');
+const SwitchFrameSystem = require('./systems/switchframes');
+const ActionSystem = require('./systems/actions');
 
-class MapEditor extends Scene.Scene {
+class Level extends Scene.Scene {
 
   constructor(game) {
 
     super(game);
+    this.ecs = new ECS.ECS();
+    this.input = new Input();
+    for (const cname of Object.keys(Components)) {
+      this.ecs.registerComponent(cname, Components[cname]);
+    }
+    this.ecs.registerTags(Tags);
+    this.ecs.addSystem('tiles', new TileSystem(this.ecs, this));
+    this.ecs.addSystem('2frame', new SwitchFrameSystem(this.ecs, this));
+    this.ecs.addSystem('actions', new ActionSystem(this.ecs, this));
   }
 
   standUp() {
@@ -47,6 +63,8 @@ class MapEditor extends Scene.Scene {
     this.cursor.lineTo(8, 4);
     this.cursor.scale.set(2, 2);
 
+    this.lastFrame = 0;
+
     //this.cursor.position.set(200, 200);
 
     this.tileInfo = {
@@ -63,6 +81,8 @@ class MapEditor extends Scene.Scene {
 
     this.map.addResources(Pixi.Loader.shared.resources['assets/floor.json'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['assets/wall.json'].data.frames);
+    this.map.addResources(Pixi.Loader.shared.resources['player0'].data.frames);
+    this.map.addResources(Pixi.Loader.shared.resources['player1'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['pit0'].data.frames);
     this.ui.addChild(this.cursor);
 
@@ -71,7 +91,8 @@ class MapEditor extends Scene.Scene {
 
       this.updateMouse(e);
       if (this.mouseInfo.button1) {
-        this.setTile();
+        //this.setTile();
+        this.map.moveBy(e.movementX, e.movementY);
       } else if (this.mouseInfo.button2) {
         this.map.moveBy(e.movementX, e.movementY);
       }
@@ -81,7 +102,7 @@ class MapEditor extends Scene.Scene {
 
       if (e.button === 0) {
         this.mouseInfo.button1 = true;
-        this.setTile();
+        //this.setTile();
       }
       else {
         this.mouseInfo.button2 = true;
@@ -101,6 +122,7 @@ class MapEditor extends Scene.Scene {
     });
 
     canvas.addEventListener('wheel', (e) => {
+      return;
 
       if (e.deltaY > 0 && this.map.scale.x < 5) {
         this.map.zoom(.5, this.tileInfo.pos.cx, this.tileInfo.pos.cy);
@@ -113,7 +135,6 @@ class MapEditor extends Scene.Scene {
         this.cursor.scale.y -= .5;
         this.updateMouse(e);
       }
-      console.log(e.deltaY, this.map.scale.x);
     });
 
     canvas.addEventListener('contextmenu', (e) => {
@@ -124,12 +145,40 @@ class MapEditor extends Scene.Scene {
     for (let row = 0; row < 25; row++) {
       for (let col = 0; col < 18; col++) {
         if (row === 0 || row === 24 || col === 0 || col === 17) {
-          this.map.setTile('wall', 'wall-1mm', row, col);
+          this.ecs.createEntity({
+            tags: ['New'],
+            Tile: {
+              startX: row,
+              startY: col,
+              frame: 'wall-1mm',
+              layer: 'wall'
+            }
+          });
+          //this.map.setTile('wall', 'wall-1mm', row, col);
         } else {
-          this.map.setTile('floor', 'floor-1s', row, col);
+          this.ecs.createEntity({
+            tags: ['New'],
+            Tile: {
+              startX: row,
+              startY: col,
+              frame: 'floor-1s',
+              layer: 'floor'
+            }
+          });
+          //this.map.setTile('floor', 'floor-1s', row, col);
         }
       }
     }
+    //this.playerTile = this.map.setTile('char',  'player0-1x3', 9, 9);
+    this.ecs.createEntity({
+      tags: ['New', 'Player'],
+      Tile: {
+        startX: 13,
+        startY: 9,
+        frame: 'player0-1x3',
+        layer: 'char'
+      }
+    });
 
     /*
     for (let pools = 0; pools < 10; pools ++) {
@@ -162,8 +211,49 @@ class MapEditor extends Scene.Scene {
   }
 
   update(dt, df, time) {
-  }
 
+    this.lastFrame += dt;
+    if (this.lastFrame >= 500) {
+      this.lastFrame -= 500;
+      if (this.lastFrame > 500) {
+        this.lastFrame = 0;
+      }
+      this.ecs.runSystemGroup('tiles');
+      this.ecs.runSystemGroup('2frame');
+    }
+    if (this.input.buffer.length > 0) {
+      const key = this.input.buffer.pop();
+      const playerEntities = this.ecs.queryEntities({ has: ['Player', 'Tile'] });
+      const player = [...playerEntities][0];
+      if (player) {
+        console.log(key)
+        switch (key) {
+          case 'KeyA':
+          case 'ArrowLeft':
+          case 'Numpad4':
+            player.addComponent('Move', {x: -1});
+            break;
+          case 'Numpad6':
+          case 'ArrowRight':
+          case 'KeyD':
+            player.addComponent('Move', {x: 1});
+            break;
+          case 'Numpad8':
+          case 'ArrowUp':
+          case 'KeyW':
+            player.addComponent('Move', {y: -1});
+            break;
+          case 'Numpad2':
+          case 'ArrowDown':
+          case 'KeyS':
+            player.addComponent('Move', {y: 1});
+            break;
+        }
+        this.ecs.runSystemGroup('actions');
+      }
+    }
+
+  }
 }
 
-module.exports = MapEditor;
+module.exports = Level;

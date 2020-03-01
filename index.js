@@ -40,11 +40,11 @@ class Game {
 
   update(time) {
 
-    //const deltaTime = Math.min(time - this.lastTime, 500);
-    //const deltaFrame = deltaTime / 16.6666667;
-    //this.lastTime = time;
+    const deltaTime = Math.min(time - this.lastTime, 500);
+    const deltaFrame = deltaTime / 16.6666667;
+    this.lastTime = time;
 
-    this.map.update(time);
+    this.map.update(deltaTime, deltaFrame, time);
     this.renderer.render(this.stage);
     window.requestAnimationFrame(this.update.bind(this));
   }

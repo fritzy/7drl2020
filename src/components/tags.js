@@ -1,0 +1,6 @@
+module.exports = [
+  'Player',
+  '2Frame',
+  'New',
+  'Impassable'
+];

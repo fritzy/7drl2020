@@ -397,6 +397,7 @@
                 "w": 16,
                 "h": 16
             },
+            "nextFrame": "player0-1x3",
             "group": "char"
         },
         "player1-1x4": {

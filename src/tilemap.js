@@ -68,8 +68,14 @@ module.exports = function (Pixi) {
 
     setTile(layer, frame, x, y) {
 
-      const tile = new Tile(frame, x, y, this.tiles[frame]);
+      const tile = new Tile(frame, x, y, this.tiles[frame], this.layers[layer]);
       this.layers[layer].setTile(tile, x, y);
+      return tile;
+    }
+
+    getTileInfo(layer, x, y) {
+
+      return this.layers[layer].getTileInfo(x, y);
     }
 
     addResources(frames) {
@@ -134,10 +140,30 @@ module.exports = function (Pixi) {
         this.tileMap.get(coord).destroy();
       }
       this.tileMap.set(coord, tile);
-      tile.sprite.position.x = this.parent.options.tileWidth * x;
-      tile.sprite.position.y = this.parent.options.tileHeight * y;
+      tile.updatePos();
       this.addChild(tile.sprite);
       this.updateBySet(x, y, true);
+      return tile;
+    }
+
+    moveTile(tile, x, y) {
+
+      const oldCoord = `${tile.x}-${tile.y}`;
+      tile.x = x;
+      tile.y = y;
+      const coord = `${tile.x}-${tile.y}`;
+      this.tileMap.delete(oldCoord);
+      if (this.tileMap.has(coord)) {
+        this.tileMap.get(coord).destroy();
+      }
+      this.tileMap.set(coord, tile);
+      tile.updatePos();
+      this.updateBySet(x, y, true);
+    }
+
+    getTileInfo(x, y) {
+
+      return this.tileMap.get(`${x}-${y}`);
     }
 
     has(x, y) {
@@ -230,11 +256,14 @@ module.exports = function (Pixi) {
 
   class Tile {
 
-    constructor(frame, x, y, info) {
+    constructor(frame, x, y, info, layer) {
 
       this.frame = frame;
+      this.layer = layer;
       this.x = x;
       this.y = y;
+      this.offX = 0;
+      this.offY = 0;
       this.info = info;
       this.sprite = new Pixi.Sprite.from(frame);
     }
@@ -243,6 +272,12 @@ module.exports = function (Pixi) {
       this.frame = frame;
       this.info = this.sprite.parent.parent.tiles[frame];
       this.sprite.texture = Pixi.Texture.from(frame);
+    }
+
+    updatePos() {
+
+      this.sprite.position.x = this.layer.parent.options.tileWidth * this.x + this.offX;
+      this.sprite.position.y = this.layer.parent.options.tileHeight * this.y + this.offY;
     }
 
     destroy() {
