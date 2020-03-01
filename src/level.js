@@ -27,6 +27,19 @@ class Level extends Scene.Scene {
 
   standUp() {
 
+    this.ecs.createEntity({
+      id: 'map',
+      tags: ['New'],
+      Map: {
+      },
+      MapLayer: {
+        'floor': {},
+        'wall': {},
+        'deco': {},
+        'char': {}
+      }
+    });
+
     this.map = new TileMap.TileMap(this);
     this.map.setScale(2);
     this.ui = new Pixi.Container();
@@ -226,23 +239,26 @@ class Level extends Scene.Scene {
       const playerEntities = this.ecs.queryEntities({ has: ['Player', 'Tile'] });
       const player = [...playerEntities][0];
       if (player) {
-        console.log(key)
         switch (key) {
+          case 'KeyH':
           case 'KeyA':
           case 'ArrowLeft':
           case 'Numpad4':
             player.addComponent('Move', {x: -1});
             break;
+          case 'KeyL':
           case 'Numpad6':
           case 'ArrowRight':
           case 'KeyD':
             player.addComponent('Move', {x: 1});
             break;
+          case 'KeyK':
           case 'Numpad8':
           case 'ArrowUp':
           case 'KeyW':
             player.addComponent('Move', {y: -1});
             break;
+          case 'KeyJ':
           case 'Numpad2':
           case 'ArrowDown':
           case 'KeyS':
@@ -250,6 +266,7 @@ class Level extends Scene.Scene {
             break;
         }
         this.ecs.runSystemGroup('actions');
+        this.ecs.tick();
       }
     }
 

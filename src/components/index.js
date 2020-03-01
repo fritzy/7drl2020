@@ -22,6 +22,28 @@ module.exports = {
     }
   },
 
+  Map: {
+    properties: {
+      x: 0,
+      y: 0,
+      container: null,
+      tileByMap: {}
+    }
+  },
+
+  TileInfo: {
+  },
+
+  MapLayer: {
+    properties: {
+      tiles: '<EntityObject>',
+      name: 'floor',
+      container: null,
+    },
+    multiset: true,
+    mapBy: 'name'
+  },
+
   Animation: {
   }
 
