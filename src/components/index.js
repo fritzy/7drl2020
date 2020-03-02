@@ -3,7 +3,7 @@ module.exports = {
   Game: {
     properties: {
       game: '',
-      tilemap: '',
+      tileInfo: {},
       dt: 0,
       du: 0
     }
@@ -11,12 +11,12 @@ module.exports = {
 
   Tile: {
     properties: {
-      startX: 0,
-      startY: 0,
-      x: '<Pointer tile.x>',
-      y: '<Pointer tile.y>',
-      offX: '<Pointer tile.offX>',
-      offY: '<Pointer tile.offY>',
+      x: 0,
+      y: 0,
+      offX: 0,
+      offY: 0,
+      group: '',
+      set: '',
       layer: '',
       sprite: null,
       tile: null,
@@ -51,6 +51,8 @@ module.exports = {
 
   MapLayer: {
     properties: {
+      scale: 1,
+      offset: [0, 0],
       tiles: '<EntityObject>',
       name: 'floor',
       container: null,

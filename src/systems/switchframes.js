@@ -16,7 +16,8 @@ class SwitchFrames extends ECS.System {
     });
     for (const entity of newTiles) {
       const tile = entity.Tile;
-      tile.tile.reset(tile.tile.info.nextFrame);
+      const next = this.level.map.mapComp.tileInfo[tile.frame].nextFrame;
+      this.level.map.updateSpriteFrame(tile, next);
     }
 
   }

@@ -1,4 +1,5 @@
 const ECS = require('@fritzy/ecs');
+const Pixi = require('pixi.js');
 
 class Tiles extends ECS.System {
 
@@ -7,6 +8,7 @@ class Tiles extends ECS.System {
     super(ecs);
     this.level = level;
     this.map = map;
+    this.game = this.level.ecs.getEntity('game').Game;
   }
 
   update() {
@@ -15,18 +17,20 @@ class Tiles extends ECS.System {
       has: ['Tile', 'New'],
       persist: 'newTiles'
     });
-    //const map = this.ecs.getEntity('map');
     for (const entity of newTiles) {
       const tile = entity.Tile;
-      const mapTile = this.level.map.setTile(tile.layer, tile.frame, tile.startX, tile.startY);
-      if (mapTile.info.nextFrame) {
+      this.level.map.setupTile(tile, false);
+      if (this.game.tileInfo[tile.frame].nextFrame) {
         entity.addTag('2Frame')
       }
-      tile.tile = mapTile;
-      entity.removeTag('New');
-      this.map.MapLayer[tile.layer].tiles[`${tile.x}-${tile.y}`] = entity;
     }
-    console.log(this.ecs.ticks);
+    for (const entity of newTiles) {
+      const tile = entity.Tile;
+      const layer = this.level.map.mapEntity.MapLayer[tile.layer];
+      this.level.map.updateBySet(layer, tile.x, tile.y, true);
+      entity.removeTag('New');
+    }
+
 
   }
 }

@@ -8,29 +8,35 @@ module.exports = function (Pixi) {
     height: 100,
     zoom: 2
   };
-  class TileMap extends Pixi.Container {
+  class TileMap {
 
     constructor(parent, mapEntity) {
 
-      super();
       this.mapEntity = mapEntity;
-      this.options = {};
-      Object.assign(this.options, defaultTileMapOptions)
+      this.mapComp = mapEntity.Map;
       this.parent = parent;
-      this.parent.addChild(this);
+      //this.parent.addChild(this);
       this.layers = {};
-
-      this.tilesByGroup = {};
       this.tilesByMap = {};
-      this.tiles = {};
+      //this.tiles = {};
+      this.gameComp = this.parent.ecs.getEntity('game').Game;
+
+      this.mapEntity.Map.container = new Pixi.Container();
+      this.parent.addChild(this.mapEntity.Map.container);
+      this.container = this.mapEntity.Map.container;
+
+      for (const lname of Object.keys(this.mapEntity.MapLayer)) {
+        this.mapEntity.MapLayer[lname].container = new Pixi.Container();
+        this.mapComp.container.addChild(this.mapEntity.MapLayer[lname].container);
+      }
     }
 
     getTile(ix, iy) {
 
-      let x = Math.floor((ix - this.position.x) / this.options.tileWidth / this.scale.x);
-      let y = Math.floor((iy - this.position.y) / this.options.tileHeight / this.scale.y);
-      let cx = x * (this.options.tileWidth * this.scale.x) + this.position.x;
-      let cy = y * (this.options.tileHeight * this.scale.y) + this.position.y;
+      let x = Math.floor((ix - this.container.position.x) / this.mapComp.tileWidth / this.container.scale.x);
+      let y = Math.floor((iy - this.container.position.y) / this.mapComp.tileHeight / this.container.scale.y);
+      let cx = x * (this.mapComp.tileWidth * this.container.scale.x) + this.container.position.x;
+      let cy = y * (this.mapComp.tileHeight * this.container.scale.y) + this.container.position.y;
       return { x, y , cx, cy};
     }
 
@@ -39,40 +45,44 @@ module.exports = function (Pixi) {
 
     moveBy(x, y) {
 
-      this.position.x += x;
-      this.position.y += y;
+      this.container.position.x += x;
+      this.container.position.y += y;
     }
 
     setScale(s) {
-      this.scale.set(s, s);
+      this.container.scale.set(s, s);
     }
 
     zoom(s, x, y) {
 
-      const worldPos = {x: (x - this.position.x) / this.scale.x, y: (y - this.position.y)/this.scale.y};
-      const newScale = {x: this.scale.x + s, y: this.scale.y + s};
+      const worldPos = {x: (x - this.container.position.x) / this.container.scale.x, y: (y - this.container.position.y)/this.container.scale.y};
+      const newScale = {x: this.container.scale.x + s, y: this.container.scale.y + s};
 
-      const newScreenPos = {x: (worldPos.x ) * newScale.x + this.position.x, y: (worldPos.y) * newScale.y + this.position.y};
+      const newScreenPos = {x: (worldPos.x ) * newScale.x + this.container.position.x, y: (worldPos.y) * newScale.y + this.container.position.y};
 
-      this.position.x -= (newScreenPos.x-x) ;
-      this.position.y -= (newScreenPos.y-y) ;
-      this.scale.x = newScale.x;
-      this.scale.y = newScale.y;
+      this.container.position.x -= (newScreenPos.x-x) ;
+      this.container.position.y -= (newScreenPos.y-y) ;
+      this.container.scale.x = newScale.x;
+      this.container.scale.y = newScale.y;
     }
 
+    /*
     addLayer(layer) {
 
       this.layers[layer.name] = layer;
       this.addChild(layer);
       layer.setToMap(this);
     }
+    */
 
+    /*
     setTile(layer, frame, x, y) {
 
       const tile = new Tile(frame, x, y, this.tiles[frame], this.layers[layer]);
       this.layers[layer].setTile(tile, x, y);
       return tile;
     }
+    */
 
     getTileInfo(layer, x, y) {
 
@@ -84,17 +94,14 @@ module.exports = function (Pixi) {
       for (const name of Object.keys(frames)) {
         const frame = frames[name];
         frame.name = name;
-        if (!this.tilesByGroup.hasOwnProperty(frame.group)) {
-          this.tilesByGroup[frame.group] = {};
-          this.tilesByMap[frame.group] = {};
+        if (!this.mapComp.tileByMap.hasOwnProperty(frame.group)) {
+          this.mapComp.tileByMap[frame.group] = {};
         }
-        if (!this.tilesByGroup[frame.group].hasOwnProperty(frame.set)) {
-          this.tilesByGroup[frame.group][frame.set] = {};
-          this.tilesByMap[frame.group][frame.set] = {};
+        if (!this.mapComp.tileByMap[frame.group].hasOwnProperty(frame.set)) {
+          this.mapComp.tileByMap[frame.group][frame.set] = {};
         }
 
-        this.tilesByGroup[frame.group][frame.set][name] = frame;
-        this.tiles[name] = frame;
+        this.gameComp.tileInfo[name] = frame;
 
         if (frame.map) {
           let nmap = '';
@@ -106,97 +113,87 @@ module.exports = function (Pixi) {
             frame.map = nmap;
           }
         }
-        this.tilesByMap[frame.group][frame.set][frame.map] = frame;
+        this.mapComp.tileByMap[frame.group][frame.set][frame.map] = frame;
+        this.mapComp.tileInfo[frame.name] = frame;
       }
     }
 
-  }
+    setupTile(tile, update=true) {
 
-  const defaultLayerOptions = {
-    scale: 1,
-    offset: [0, 0]
-  };
-
-  class Layer extends Pixi.Container {
-
-    constructor(name, options={}) {
-
-      super();
-      this.parent = null;
-      this.name = name;
-      this.options = {};
-      Object.assign(this.options, defaultLayerOptions, options);
-      this.tileMap = new Map();
-    }
-
-    setToMap(map) {
-
-      this.parent = map;
-    }
-
-    setTile(tile, x, y) {
-
-      const coord = `${x}-${y}`;
-      if (this.tileMap.has(coord)) {
-        this.tileMap.get(coord).destroy();
+      const coord = `${tile.x}-${tile.y}`;
+      const layer = this.mapEntity.MapLayer[tile.layer];
+      if (layer.tiles[coord]) {
+        layer.tiles[coord].Tile.sprite.destroy();
       }
-      this.tileMap.set(coord, tile);
-      tile.updatePos();
-      this.addChild(tile.sprite);
-      this.updateBySet(x, y, true);
+      tile.sprite = new Pixi.Sprite.from(tile.frame);
+      layer.tiles[coord] = tile.entity;
+      const info = this.mapComp.tileInfo[tile.frame];
+      tile.set = info.set;
+      tile.group = info.group;
+      this.updateSpritePos(tile);
+      layer.container.addChild(tile.sprite);
+      layer.tiles[`${tile.x}-${tile.y}`] = tile.entity;
+      if (update)
+        this.updateBySet(layer, tile.x, tile.y, true);
       return tile;
     }
 
-    moveTile(tile, x, y) {
+    moveTile(layer, tile, x, y) {
 
       const oldCoord = `${tile.x}-${tile.y}`;
       tile.x = x;
       tile.y = y;
       const coord = `${tile.x}-${tile.y}`;
-      this.tileMap.delete(oldCoord);
-      if (this.tileMap.has(coord)) {
-        this.tileMap.get(coord).destroy();
+      delete layer.tiles[oldCoord];
+      if (layer.tiles.hasOwnProperty(coord)) {
+        layer.tiles[coord].Tile.sprite.destroy();
       }
-      this.tileMap.set(coord, tile);
-      tile.updatePos();
-      this.updateBySet(x, y, true);
+      layer.tiles[coord] = tile.entity;
+      this.updateSpritePos(tile);
+      this.updateBySet(layer, x, y, true);
     }
 
-    getTileInfo(x, y) {
+    getTileInfo(layer, x, y) {
 
-      return this.tileMap.get(`${x}-${y}`);
+      return layer.tiles[`${x}-${y}`].Tile;
     }
 
-    has(x, y) {
+    has(layer, x, y) {
 
-      return this.tileMap.has(`${x}-${y}`);
+      return layer.tiles.hasOwnProperty(`${x}-${y}`);
     }
 
-    isSet(group, set, x, y) {
+    isSet(layer, group, set, x, y, check) {
 
-      const tile = this.tileMap.get(`${x}-${y}`);
-      return (tile && group === tile.info.group && set === tile.info.set)
+      const tileE = layer.tiles[`${x}-${y}`];
+      if (!tileE) {
+        return false;
+      }
+      const tile = tileE.Tile;
+      return (group === tile.group && set === tile.set)
     }
 
-    updateBySet(x, y, force=false) {
+    updateBySet(layer, x, y, force=false) {
 
       const coord = `${x}-${y}`;
-      const tile = this.tileMap.get(coord);
-      if (!tile || !tile.info || !tile.info.map) {
+      const tileE = layer.tiles[coord];
+      if (!tileE) {
         return;
       }
-      const set = tile.info.set;
-      const group = tile.info.group;
-      const keys = Object.keys(this.parent.tilesByMap[tile.info.group][tile.info.set]);
+      const tile = tileE.Tile;
+      const info = this.mapComp.tileInfo[tile.frame];
+      const set = info.set;
+      const group = info.group;
+      const keys = Object.keys(this.mapComp.tileByMap[group][set]);
       const n = [
-        this.isSet(group, set, x - 1, y - 1),
-        this.isSet(group, set, x, y - 1),
-        this.isSet(group, set, x + 1, y - 1),
-        this.isSet(group, set, x + 1, y),
-        this.isSet(group, set, x + 1, y + 1),
-        this.isSet(group, set, x, y + 1),
-        this.isSet(group, set, x - 1, y + 1),
-        this.isSet(group, set, x - 1, y),
+        this.isSet(layer, group, set, x - 1, y - 1),
+        this.isSet(layer, group, set, x, y - 1),
+        this.isSet(layer, group, set, x + 1, y - 1),
+        this.isSet(layer, group, set, x + 1, y),
+        this.isSet(layer, group, set, x + 1, y + 1),
+        this.isSet(layer, group, set, x, y + 1),
+        this.isSet(layer, group, set, x - 1, y + 1),
+        this.isSet(layer, group, set, x - 1, y),
       ];
 
       let updatedNeighbors = false;
@@ -210,50 +207,42 @@ module.exports = function (Pixi) {
           }
         }
         if (match) {
-          const newFrame = this.parent.tilesByMap[tile.info.group][tile.info.set][key].name;
+          const newFrame = this.mapComp.tileByMap[group][set][key].name;
           if (newFrame !== tile.frame) {
-            tile.reset(newFrame);
+            this.updateSpriteFrame(tile, newFrame);
             updatedNeighbors = true;
-            this.updateNeighbors(x, y);
+            this.updateNeighbors(layer, x, y);
           }
           break;
         }
       }
       if (force && !updatedNeighbors) {
-        this.updateNeighbors(x, y);
+        this.updateNeighbors(layer, x, y);
       }
     }
 
-    updateNeighbors(x, y) {
-      this.updateBySet(x - 1, y - 1);
-      this.updateBySet(x, y - 1);
-      this.updateBySet(x + 1, y - 1);
-      this.updateBySet(x - 1, y);
-      this.updateBySet(x + 1, y);
-      this.updateBySet(x - 1, y + 1);
-      this.updateBySet(x, y + 1);
-      this.updateBySet(x + 1, y + 1);
+    updateNeighbors(layer, x, y) {
+      this.updateBySet(layer, x - 1, y - 1);
+      this.updateBySet(layer, x, y - 1);
+      this.updateBySet(layer, x + 1, y - 1);
+      this.updateBySet(layer, x - 1, y);
+      this.updateBySet(layer, x + 1, y);
+      this.updateBySet(layer, x - 1, y + 1);
+      this.updateBySet(layer, x, y + 1);
+      this.updateBySet(layer, x + 1, y + 1);
+    }
+
+    updateSpritePos(tile) {
+      tile.sprite.position.x = this.mapComp.tileWidth * tile.x + tile.offX;
+      tile.sprite.position.y = this.mapComp.tileHeight * tile.y + tile.offY;
+    }
+
+    updateSpriteFrame(tile, frame) {
+
+      tile.frame = frame
+      tile.sprite.texture = Pixi.Texture.from(frame);
     }
   }
-
-
-  class AnimatedLayer extends Layer {
-
-    constructor(parent, name, options) {
-
-      super(parent, name, options);
-    }
-  }
-
-
-  class TileType {
-
-    constructor(options) {
-
-      Object.assign(this, options);
-    }
-  }
-
 
   class Tile {
 
@@ -277,8 +266,8 @@ module.exports = function (Pixi) {
 
     updatePos() {
 
-      this.sprite.position.x = this.layer.parent.options.tileWidth * this.x + this.offX;
-      this.sprite.position.y = this.layer.parent.options.tileHeight * this.y + this.offY;
+      this.sprite.position.x = this.layer.parent.mapComp.tileWidth * this.x + this.offX;
+      this.sprite.position.y = this.layer.parent.mapComp.tileHeight * this.y + this.offY;
     }
 
     destroy() {
@@ -287,20 +276,8 @@ module.exports = function (Pixi) {
     }
   }
 
-  class CheckerLayer extends Layer {
-
-    constructor(parent, name, options) {
-
-      super(parent, name, options);
-    }
-  }
-
   return {
     Map,
-    Layer,
-    AnimatedLayer,
-    TileType,
     TileMap,
-    CheckerLayer
   };
 }

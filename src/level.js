@@ -8,6 +8,7 @@ const Tags = require('./components/tags');
 const TileSystem = require('./systems/tiles');
 const SwitchFrameSystem = require('./systems/switchframes');
 const ActionSystem = require('./systems/actions');
+const DormGen = require('./gen/dorm');
 
 class Level extends Scene.Scene {
 
@@ -26,6 +27,12 @@ class Level extends Scene.Scene {
 
   standUp() {
 
+    const game = this.ecs.createEntity({
+      id: 'game',
+      Game: {
+        game: this
+      }
+    });
     const map = this.ecs.createEntity({
       id: 'map',
       tags: ['New'],
@@ -44,21 +51,8 @@ class Level extends Scene.Scene {
     this.map.setScale(2);
     this.ui = new Pixi.Container();
 
-    this.addChild(this.map);
+    //this.addChild(this.map);
     this.addChild(this.ui);
-
-
-    const floor = new TileMap.Layer('floor');
-    const wall = new TileMap.Layer('wall');
-    const deco1 = new TileMap.Layer('deco1');
-    const deco2 = new TileMap.Layer('deco2');
-    const char = new TileMap.Layer('char');
-
-    this.map.addLayer(floor);
-    this.map.addLayer(wall);
-    this.map.addLayer(deco1);
-    this.map.addLayer(deco2);
-    this.map.addLayer(char);
 
     this.cursor = new Pixi.Graphics();
     this.cursor.lineStyle(1, 0xffffff, 1);
@@ -104,7 +98,6 @@ class Level extends Scene.Scene {
 
       this.updateMouse(e);
       if (this.mouseInfo.button1) {
-        //this.setTile();
         this.map.moveBy(e.movementX, e.movementY);
       } else if (this.mouseInfo.button2) {
         this.map.moveBy(e.movementX, e.movementY);
@@ -115,7 +108,6 @@ class Level extends Scene.Scene {
 
       if (e.button === 0) {
         this.mouseInfo.button1 = true;
-        //this.setTile();
       }
       else {
         this.mouseInfo.button2 = true;
@@ -154,70 +146,46 @@ class Level extends Scene.Scene {
       e.preventDefault();
     });
 
+    const dormgen = new DormGen(this.ecs, 50, 50);
+   // dormgen.render()
+    dormgen.work()
 
+    /*
     for (let row = 0; row < 25; row++) {
       for (let col = 0; col < 18; col++) {
         if (row === 0 || row === 24 || col === 0 || col === 17) {
           this.ecs.createEntity({
             tags: ['New', 'Impassable'],
             Tile: {
-              startX: row,
-              startY: col,
+              x: row,
+              y: col,
               frame: 'wall-1mm',
               layer: 'wall'
             }
           });
-          //this.map.setTile('wall', 'wall-1mm', row, col);
         } else {
           this.ecs.createEntity({
             tags: ['New'],
             Tile: {
-              startX: row,
-              startY: col,
+              x: row,
+              y: col,
               frame: 'floor-1s',
               layer: 'floor'
             }
           });
-          //this.map.setTile('floor', 'floor-1s', row, col);
-        }
-      }
-    }
-    //this.playerTile = this.map.setTile('char',  'player0-1x3', 9, 9);
-    this.ecs.createEntity({
-      tags: ['New', 'Player'],
-      Tile: {
-        startX: 13,
-        startY: 9,
-        frame: 'player0-1x3',
-        layer: 'char'
-      }
-    });
-
-    /*
-    for (let pools = 0; pools < 10; pools ++) {
-      const w = Math.floor(Math.random() * 15 + 3);
-      const h = Math.floor(Math.random() * 12 + 3);
-      const x = Math.floor(Math.random() * 33 + 1);
-      const y = Math.floor(Math.random() * 35 + 1);
-      for (let row = x; row < x + w; row++) {
-        for (let col = y; col < y + h; col++) {
-          this.map.setTile('floor', 'pit0-10mm', row, col);
         }
       }
     }
     */
 
+
+
   }
 
   updateMouse(e) {
+
     this.tileInfo.pos = this.map.getTile(e.offsetX, e.offsetY);
-    this.cursor.position.set(this.tileInfo.pos.cx + (8 * this.map.scale.x), this.tileInfo.pos.cy + (8 * this.map.scale.y));
-  }
-
-  setTile() {
-
-    const pos = this.tileInfo.pos;
-    this.map.setTile('floor', this.tileInfo.frame, pos.x, pos.y);
+    this.cursor.position.set(this.tileInfo.pos.cx + (8 * this.map.container.scale.x), this.tileInfo.pos.cy + (8 * this.map.container.scale.y));
   }
 
   tearDown() {

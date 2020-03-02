@@ -16,13 +16,13 @@ class Actions extends ECS.System {
     for (const entity of newTiles) {
       const tile = entity.Tile;
       const move = entity.Move;
-      if (move.x > 0 && tile.tile.sprite.scale.x > 0) {
-        tile.tile.sprite.scale.x *= -1;
-        tile.tile.sprite.anchor.set(.5, 0);
+      if (move.x > 0 && tile.sprite.scale.x > 0) {
+        tile.sprite.scale.x *= -1;
+        tile.sprite.anchor.set(.5, 0);
         tile.offX = 8;
-      } else if (move.x < 0 && tile.tile.sprite.scale.x < 0) {
-        tile.tile.sprite.scale.x *= -1;
-        tile.tile.sprite.anchor.set(.5, 0);
+      } else if (move.x < 0 && tile.sprite.scale.x < 0) {
+        tile.sprite.scale.x *= -1;
+        tile.sprite.anchor.set(.5, 0);
         tile.offX = 8;
       }
       const newX = tile.x + move.x;
@@ -30,11 +30,12 @@ class Actions extends ECS.System {
       const target = `${newX}-${newY}`;
       const targetWall = map.MapLayer['wall'].tiles[target];
       const targetChar = map.MapLayer['char'].tiles[target];
+      const layer = map.MapLayer[tile.layer];
       if (
         (targetWall === undefined || !targetWall.tags.has('Impassable'))
         && (targetChar === undefined || !targetChar.tags.has('Impassable'))
       ) {
-        tile.tile.layer.moveTile(tile.tile, tile.x + move.x, tile.y + move.y);
+        this.level.map.moveTile(layer, tile, tile.x + move.x, tile.y + move.y);
       }
       entity.removeComponent(move);
     }
