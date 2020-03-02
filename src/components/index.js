@@ -61,7 +61,20 @@ module.exports = {
     mapBy: 'name'
   },
 
+  Camera: {
+    properties: {
+      x: 0,
+      y: 0,
+      target: '<Entity>'
+    }
+  },
+
   Animation: {
+    properties: {
+      tween: null,
+      x: 0,
+      y: 0
+    }
   }
 
 };

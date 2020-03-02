@@ -14,11 +14,11 @@ class Manager {
     this.lastTime = 0;
   }
 
-  addScene(name, scene) {
+  async addScene(name, scene) {
 
     console.log('adding scene', scene);
     this.stage.addChild(scene);
-    scene.standUp();
+    await scene.standUp();
     //scene.setParent(this);
     this.scenes[name] = scene;
     this.sceneList.push(scene);

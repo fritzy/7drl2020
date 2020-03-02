@@ -27,12 +27,12 @@ class Game {
     this.options.container.appendChild(this.renderer.view);
     this.stage = new Pixi.Container();
 
-    Load.load().then(() => {
+    Load.load().then(async () => {
 
       console.log('loaded', this.options.width, this.options.height, this.options.container);
       this.scenes = new Scene.Manager(this, this.stage);
       this.map = new Level(this);
-      this.scenes.addScene('map', this.map);
+      await this.scenes.addScene('map', this.map);
       this.update(0);
     });
     this.lastTime = 0;

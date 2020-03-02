@@ -9,6 +9,8 @@ const TileSystem = require('./systems/tiles');
 const SwitchFrameSystem = require('./systems/switchframes');
 const ActionSystem = require('./systems/actions');
 const DormGen = require('./gen/dorm');
+const Camera = require('./systems/camera');
+let Tween;
 
 class Level extends Scene.Scene {
 
@@ -23,9 +25,13 @@ class Level extends Scene.Scene {
     this.ecs.registerTags(Tags);
     this.ecs.addSystem('2frame', new SwitchFrameSystem(this.ecs, this));
     this.ecs.addSystem('actions', new ActionSystem(this.ecs, this));
+    this.tween = null;
   }
 
-  standUp() {
+  async standUp() {
+
+    const tweenModule = await import('@tweenjs/tween.js');
+    Tween = this.tween = tweenModule.default;
 
     const game = this.ecs.createEntity({
       id: 'game',
@@ -46,6 +52,13 @@ class Level extends Scene.Scene {
       }
     });
     this.ecs.addSystem('tiles', new TileSystem(this.ecs, this, map));
+    this.ecs.addSystem('animation', new Camera(this.ecs, this));
+
+	this.ecs.createEntity({
+      id: 'camera',
+      Camera: {
+      }
+	});
 
     this.map = new TileMap.TileMap(this, map);
     this.map.setScale(2);
@@ -147,38 +160,7 @@ class Level extends Scene.Scene {
     });
 
     const dormgen = new DormGen(this.ecs, 50, 50);
-   // dormgen.render()
     dormgen.work()
-
-    /*
-    for (let row = 0; row < 25; row++) {
-      for (let col = 0; col < 18; col++) {
-        if (row === 0 || row === 24 || col === 0 || col === 17) {
-          this.ecs.createEntity({
-            tags: ['New', 'Impassable'],
-            Tile: {
-              x: row,
-              y: col,
-              frame: 'wall-1mm',
-              layer: 'wall'
-            }
-          });
-        } else {
-          this.ecs.createEntity({
-            tags: ['New'],
-            Tile: {
-              x: row,
-              y: col,
-              frame: 'floor-1s',
-              layer: 'floor'
-            }
-          });
-        }
-      }
-    }
-    */
-
-
 
   }
 
@@ -193,6 +175,7 @@ class Level extends Scene.Scene {
 
   update(dt, df, time) {
 
+    Tween.update(time);
     this.lastFrame += dt;
     if (this.lastFrame >= 500) {
       this.lastFrame -= 500;
@@ -237,6 +220,7 @@ class Level extends Scene.Scene {
         this.ecs.tick();
       }
     }
+    this.ecs.runSystemGroup('animation');
 
   }
 }
