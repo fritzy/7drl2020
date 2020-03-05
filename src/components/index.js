@@ -13,6 +13,7 @@ module.exports = {
     properties: {
       x: 0,
       y: 0,
+      facing: 'left',
       offX: 0,
       offY: 0,
       group: '',
@@ -65,6 +66,7 @@ module.exports = {
     properties: {
       x: 0,
       y: 0,
+      targetPos: {},
       target: '<Entity>'
     }
   },
@@ -74,7 +76,8 @@ module.exports = {
       tween: null,
       x: 0,
       y: 0
-    }
+    },
+    multiset: true
   }
 
 };

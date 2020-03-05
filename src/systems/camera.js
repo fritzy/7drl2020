@@ -14,30 +14,38 @@ class Camera extends ECS.System {
     if (!camera.Camera.target) {
       const players = this.ecs.queryEntities({ has: ['Player'] });
       if (players.size > 0) {
-        camera.Camera.target = [...players][0];
+        const player = [...players][0];
+        camera.Camera.target = player;
+        camera.Camera.targetPos = this.level.map.getPos(player.Tile.x, player.Tile.y);
       }
     }
     if (camera.Animation && camera.Camera.target) {
-      if (camera.Animation.x !== camera.Camera.target.Tile.sprite.position.x
-        || camera.Animation.y !== camera.Camera.target.Tile.sprite.position.y) {
+      const ttile = camera.Camera.target.Tile;
+      const pos = this.level.map.getPos(ttile.x, ttile.y);
+      if (camera.Animation.x !== pos.x
+        || camera.Animation.y !== pos.y) {
         camera.Animation.tween.stop()
       }
     }
+
     if (camera.Camera.target && !camera.Animation && camera.Camera.target.Tile.sprite) {
+      const ttile = camera.Camera.target.Tile;
+      const pos = this.level.map.getPos(ttile.x, ttile.y);
+
       const sprite = camera.Camera.target.Tile.sprite;
       const container = this.level.map.container;
-      camera.addComponent('Animation', {
-        x: sprite.x,
-        y: sprite.y
+      const animation = camera.addComponent('Animation', {
+        x: pos.x,
+        y: pos.y
       });
       const tween = new this.tween.Tween(container.position)
-        .to({ x: -sprite.position.x * container.scale.x + 400, y: -sprite.position.y * container.scale.y + 320}, 1000)
+        .to({ x: -pos.x * container.scale.x + 400, y: -pos.y * container.scale.y + 320}, 1000)
         .easing(this.tween.Easing.Exponential.Out)
         .onStop(() => {
-          camera.removeComponent(camera.Animation);
+          camera.removeComponent(animation);
         })
         .onComplete(() => {
-          camera.removeComponent(camera.Animation);
+          camera.removeComponent(animation);
         })
         .start();
       camera.Animation.tween = tween;

@@ -237,10 +237,20 @@ module.exports = function (Pixi) {
       tile.sprite.position.y = this.mapComp.tileHeight * tile.y + tile.offY;
     }
 
+    getPos(x, y) {
+
+      return { x: this.mapComp.tileWidth * x,
+        y: this.mapComp.tileWidth * y };
+    }
+
     updateSpriteFrame(tile, frame) {
 
       tile.frame = frame
-      tile.sprite.texture = Pixi.Texture.from(frame);
+      let texture = Pixi.Texture.from(frame);
+      if (tile.facing === 'right') {
+        texture = new Pixi.Texture(texture.baseTexture, texture.frame, texture.orig, texture.trim, 12)
+      }
+      tile.sprite.texture = texture;
     }
   }
 
