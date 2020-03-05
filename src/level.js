@@ -11,7 +11,7 @@ const ActionSystem = require('./systems/actions');
 const DormGen = require('./gen/dorm');
 const Camera = require('./systems/camera');
 let Tween;
-
+const Filters = require('pixi-filters');
 class Level extends Scene.Scene {
 
   constructor(game) {
@@ -26,6 +26,11 @@ class Level extends Scene.Scene {
     this.ecs.addSystem('2frame', new SwitchFrameSystem(this.ecs, this));
     this.ecs.addSystem('actions', new ActionSystem(this.ecs, this));
     this.tween = null;
+    this.filters = [new Filters.CRTFilter({
+      lineWidth: 2,
+      noiseSize: 1,
+      noise: .4
+    })];
   }
 
   async standUp() {
@@ -175,6 +180,7 @@ class Level extends Scene.Scene {
 
   update(dt, df, time) {
 
+    //this.filters[0].time += dt / 40;
     Tween.update(time);
     this.lastFrame += dt;
     if (this.lastFrame >= 500) {
