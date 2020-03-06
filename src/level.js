@@ -26,11 +26,13 @@ class Level extends Scene.Scene {
     this.ecs.addSystem('2frame', new SwitchFrameSystem(this.ecs, this));
     this.ecs.addSystem('actions', new ActionSystem(this.ecs, this));
     this.tween = null;
+    /*
     this.filters = [new Filters.CRTFilter({
       lineWidth: 2,
       noiseSize: 1,
       noise: .4
     })];
+    */
   }
 
   async standUp() {
@@ -109,6 +111,9 @@ class Level extends Scene.Scene {
     this.map.addResources(Pixi.Loader.shared.resources['player0'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['player1'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['pit0'].data.frames);
+    //this.map.addResources(Pixi.Loader.shared.resources['pit1'].data.frames);
+    this.map.addResources(Pixi.Loader.shared.resources['door0'].data.frames);
+    this.map.addResources(Pixi.Loader.shared.resources['door1'].data.frames);
     this.ui.addChild(this.cursor);
 
     const canvas = this.game.renderer.view;

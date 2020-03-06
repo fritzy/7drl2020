@@ -27,22 +27,6 @@ class DormGen {
     this.walls = {};
     this.deletedWalls = 0;
 
-    /*
-    let room = this.makeRoom(0, 0, width, 10, false);
-    this.rooms.add(room);
-    room = this.makeRoom(0, 9, 10, height - 9, false);
-    this.rooms.add(room);
-    room = this.makeRoom(9, 9, 5, height - 22, true);
-    this.rooms.add(room);
-    room = this.makeRoom(9, height - 14, width - 20, 5, true);
-    this.rooms.add(room);
-    room = this.makeRoom(13, 9, width - 13, height - 22, false);
-    this.rooms.add(room);
-    room = this.makeRoom(9, height - 10, width - 20, 10, false);
-    this.rooms.add(room);
-    room = this.makeRoom(width - 12, height - 14, width - 20 - 18, 14, false);
-    this.rooms.add(room);
-    */
     let room = this.makeRoom(0, 0, width, 10, false);
     this.rooms.add(room);
     room = this.makeRoom(0, 9, 10, height - 9, false);
@@ -305,6 +289,18 @@ class DormGen {
             y: parseInt(coord[1], 10),
             frame: 'floor-1s',
             layer: 'floor'
+          }
+        });
+        this.ecs.createEntity({
+          tags: ['New', 'Impassable'],
+          Tile: {
+            x: parseInt(coord[0], 10),
+            y: parseInt(coord[1], 10),
+            frame: 'door-wood-ns-closed',
+            layer: 'wall'
+          },
+          Door: {
+            closed: true
           }
         });
       } else {

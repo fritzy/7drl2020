@@ -18,13 +18,14 @@ const load = () => {
 
   return new Promise((resolve, reject) => {
 
-    console.log(Pixi);
     loader.add('assets/wall.json');
     loader.add('assets/floor.json');
     loader.add('pit0', 'assets/pit0.json');
     loader.add('pit1', 'assets/pit1.json');
     loader.add('deco0', 'assets/deco0.json');
     loader.add('deco1', 'assets/deco1.json');
+    loader.add('door0', 'assets/door0.json');
+    loader.add('door1', 'assets/door1.json');
 
     const chars = ['player', 'aquatic', 'avian', 'cat', 'dog', 'elemental', 'humanoid', 'misc', 'pest', 'plant', 'quadraped', 'reptile', 'rodent', 'slime', 'undead'];
 

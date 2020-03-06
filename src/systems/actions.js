@@ -32,6 +32,9 @@ class Actions extends ECS.System {
       const targetWall = map.MapLayer['wall'].tiles[target];
       const targetChar = map.MapLayer['char'].tiles[target];
       const layer = map.MapLayer[tile.layer];
+      if (targetWall && targetWall.Door && targetWall.Door.closed) {
+        targetWall.addTag('ActionOpen');
+      }
       if (
         (targetWall === undefined || !targetWall.tags.has('Impassable'))
         && (targetChar === undefined || !targetChar.tags.has('Impassable'))
@@ -57,7 +60,7 @@ class Actions extends ECS.System {
           });
 
         const tween3 = new this.level.tween.Tween(tile.sprite.scale)
-          .to({ y: 1.3, x: .7 }, 25);
+          .to({ y: .8, x: 1.3 }, 25);
         const tween4 = new this.level.tween.Tween(tile.sprite.scale)
           .to({ y: 1, x: 1 }, 125);
         tween3.chain(tween4);
@@ -100,6 +103,16 @@ class Actions extends ECS.System {
         this.level.map.moveTile(layer, tile, tile.x + move.x, tile.y + move.y);
       }
       entity.removeComponent(move);
+    }
+    const doors = this.ecs.queryEntities({
+      has: ['ActionOpen', 'Tile', 'Door'],
+    });
+    for (const door of doors) {
+      const frame = door.Tile.frame.replace('closed', 'open');
+      this.level.map.updateSpriteFrame(door.Tile, frame);
+      door.removeTag('ActionOpen');
+      door.removeTag('Impassable');
+      door.Door.closed = false;
     }
 
   }

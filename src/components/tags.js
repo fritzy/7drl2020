@@ -2,5 +2,6 @@ module.exports = [
   'Player',
   '2Frame',
   'New',
-  'Impassable'
+  'Impassable',
+  'ActionOpen'
 ];

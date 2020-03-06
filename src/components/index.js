@@ -9,6 +9,12 @@ module.exports = {
     }
   },
 
+  Door: {
+    properties: {
+      closed: true
+    }
+  },
+
   Tile: {
     properties: {
       x: 0,

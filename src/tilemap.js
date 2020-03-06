@@ -1,3 +1,7 @@
+const groupNeighbor = {
+  wall: new Set(['wall', 'door']),
+  door: new Set(['wall', 'door'])
+}
 
 module.exports = function (Pixi) {
 
@@ -170,6 +174,9 @@ module.exports = function (Pixi) {
         return false;
       }
       const tile = tileE.Tile;
+      if (groupNeighbor.hasOwnProperty(group) && groupNeighbor[group].has(tile.group)) {
+        return true;
+      }
       return (group === tile.group && set === tile.set)
     }
 

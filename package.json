@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fritzy/ecs": "^0.4.1",
+    "@fritzy/ecs": "^0.4.2",
     "@tweenjs/tween.js": "^18.5.0",
     "fast-astar": "^1.0.6",
     "heap": "^0.2.6",
