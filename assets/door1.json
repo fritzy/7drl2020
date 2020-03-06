@@ -1,0 +1,55 @@
+{
+  "frames": {
+    "door-wood-ew-open": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "default": false,
+      "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+      },
+      "sourceSize": {
+          "w": 16,
+          "h": 16
+      },
+      "group": "door",
+      "set": "door-wood-open",
+      "map": "0101"
+    },
+    "door-wood-ns-open": {
+      "frame": {
+        "x": 16,
+        "y": 0,
+        "w": 16,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "default": false,
+      "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+      },
+      "sourceSize": {
+          "w": 16,
+          "h": 16
+      },
+      "group": "door",
+      "set": "door-wood-open",
+      "map": "1010"
+    }
+  },
+  "meta": {
+    "image": "Objects/Door1.png"
+  }
+}
