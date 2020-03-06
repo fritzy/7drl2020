@@ -12,6 +12,7 @@ const DormGen = require('./gen/dorm');
 const Camera = require('./systems/camera');
 const TimerSystem = require('./systems/timer');
 const VisibleSystem = require('./systems/visible');
+const LightSystem = require('./systems/light');
 let Tween;
 const Filters = require('pixi-filters');
 class Level extends Scene.Scene {
@@ -28,6 +29,7 @@ class Level extends Scene.Scene {
     this.ecs.addSystem('2frame', new SwitchFrameSystem(this.ecs, this));
     this.ecs.addSystem('actions', new ActionSystem(this.ecs, this));
     this.ecs.addSystem('actions', new TimerSystem(this.ecs, this));
+    this.ecs.addSystem('visible', new LightSystem(this.ecs, this));
     this.ecs.addSystem('visible', new VisibleSystem(this.ecs, this));
     this.tween = null;
     /*

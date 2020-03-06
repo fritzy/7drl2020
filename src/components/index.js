@@ -9,6 +9,22 @@ module.exports = {
     }
   },
 
+  LightSource: {
+    properties: {
+      color: '#ffffff',
+      radius: 4,
+      flicker: 0
+    }
+  },
+
+  Light: {
+    properties: {
+      tint: '#FFFFFF',
+      source: '<Entity>'
+    },
+    multiset: true
+  },
+
   Door: {
     properties: {
       closed: true

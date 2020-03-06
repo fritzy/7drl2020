@@ -5,5 +5,6 @@ module.exports = [
   'Impassable',
   'ActionOpen',
   'ActionClose',
-  'Seen'
+  'Seen',
+  'Flicker'
 ];

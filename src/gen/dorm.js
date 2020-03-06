@@ -393,7 +393,7 @@ class DormGen {
       for (const floor of room.floor) {
         const fcoord = floor.split('x');
         //this.display.draw(fcoord[0], fcoord[1], '.', 'white', 'black');
-        this.ecs.createEntity({
+        const entity = this.ecs.createEntity({
           tags: ['New'],
           Tile: {
             x: parseInt(fcoord[0], 10),
@@ -402,6 +402,11 @@ class DormGen {
             layer: 'floor'
           }
         });
+        if (Math.floor(Math.random() * 100)  === 1) {
+          entity.addComponent('LightSource', {
+            color: '#f7fae8'
+          });
+        }
         if (ridx === proom && fidx === pfloor) {
           this.ecs.createEntity({
             tags: ['New', 'Player'],
@@ -410,6 +415,10 @@ class DormGen {
               y: parseInt(fcoord[1], 10),
               frame: 'player0-1x3',
               layer: 'char'
+            },
+            LightSource: {
+              color: '#f7fae8',
+              radius: 3
             }
           });
         }
