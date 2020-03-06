@@ -40,7 +40,7 @@ class Camera extends ECS.System {
       });
       const tween = new this.tween.Tween(container.position)
         .to({ x: -pos.x * container.scale.x + 400, y: -pos.y * container.scale.y + 320}, 1000)
-        .easing(this.tween.Easing.Exponential.Out)
+        .easing(this.tween.Easing.Sinusoidal.Out)
         .onStop(() => {
           camera.removeComponent(animation);
         })

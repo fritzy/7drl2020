@@ -31,9 +31,9 @@ class DormGen {
     this.rooms.add(room);
     room = this.makeRoom(0, 9, 10, height - 9, false);
     this.rooms.add(room);
-    room = this.makeRoom(9, 9, 7, height - 23, true);
+    room = this.makeRoom(9, 9, 7, height - 23, true, 'hall');
     this.rooms.add(room);
-    room = this.makeRoom(9, height - 15, width - 20, 7, true);
+    room = this.makeRoom(9, height - 15, width - 20, 7, true, 'hall');
     this.rooms.add(room);
     room = this.makeRoom(15, 9, width - 15, height - 23, false);
     this.rooms.add(room);
@@ -45,7 +45,7 @@ class DormGen {
     //this.render();
   }
 
-  makeRoom(x, y, w, h, l) {
+  makeRoom(x, y, w, h, l, t) {
     return {
       x,
       y,
@@ -53,13 +53,14 @@ class DormGen {
       h,
       lock: !!l,
       floor: new Set(),
-      wall: new Set()
+      wall: new Set(),
+      type: t
     };
   }
 
   work() {
 
-    while (this.step < 5) {
+    while (this.step < 6) {
       switch(this.step) {
         case 0:
           this.splitRoom();
@@ -81,9 +82,78 @@ class DormGen {
           this.setDoors();
           this.step++;
           break;
+        case 5:
+          this.setRugs();
+          this.makeRug(10, 10, 5, 31);
+          this.makeRug(16, 36, 22, 5);
+          this.step++;
+          break;
       }
     }
     this.render();
+  }
+
+  makeRug(x, y, w, h) {
+
+    for (let px = x; px < x + w; px++) {
+      for (let py = y; py < y + h; py++) {
+        this.ecs.createEntity({
+          tags: ['New'],
+          Tile: {
+            x: px,
+            y: py,
+            layer: 'deco',
+            frame: 'deco0-rug-m'
+          }
+        });
+      }
+    }
+  }
+
+  setRugs() {
+
+    this.ecs.createEntity({
+      tags: ['New'],
+      Tile: {
+        x: 1,
+        y: 1,
+        layer: 'deco',
+        frame: 'deco0-rug-m'
+      }
+    });
+    this.ecs.createEntity({
+      tags: ['New'],
+      Tile: {
+        x: 2,
+        y: 1,
+        layer: 'deco',
+        frame: 'deco0-rug-m'
+      }
+    });
+    this.ecs.createEntity({
+      tags: ['New'],
+      Tile: {
+        x: 1,
+        y: 2,
+        layer: 'deco',
+        frame: 'deco0-rug-m'
+      }
+    });
+    this.ecs.createEntity({
+      tags: ['New'],
+      Tile: {
+        x: 2,
+        y: 2,
+        layer: 'deco',
+        frame: 'deco0-rug-m'
+      }
+    });
+
+    for (const room of this.rooms) {
+      if (room.type === 'hall') {
+        console.log(room);
+      }
+    }
   }
 
   setDoors() {

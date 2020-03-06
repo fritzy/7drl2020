@@ -3,5 +3,7 @@ module.exports = [
   '2Frame',
   'New',
   'Impassable',
-  'ActionOpen'
+  'ActionOpen',
+  'ActionClose',
+  'Seen'
 ];

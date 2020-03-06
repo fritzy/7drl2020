@@ -49,20 +49,20 @@ class Actions extends ECS.System {
         }
 
         const tween = new this.level.tween.Tween(tile)
-          .to({ offX: tile.offX / 2, offY: tile.offY / 2 - 8}, 75)
+          .to({ offX: tile.offX / 2, offY: tile.offY / 2 - 8}, 100)
           .onUpdate(() => {
             this.level.map.updateSpritePos(tile);
           });
         const tween2 = new this.level.tween.Tween(tile)
-          .to({ offX: 0, offY: 0}, 75)
+          .to({ offX: 0, offY: 0}, 100)
           .onUpdate(() => {
             this.level.map.updateSpritePos(tile);
           });
 
         const tween3 = new this.level.tween.Tween(tile.sprite.scale)
-          .to({ y: .8, x: 1.3 }, 25);
+          .to({ y: .8, x: 1.2 }, 100);
         const tween4 = new this.level.tween.Tween(tile.sprite.scale)
-          .to({ y: 1, x: 1 }, 125);
+          .to({ y: 1, x: 1 }, 100);
         tween3.chain(tween4);
         tween3.start();
 
@@ -113,6 +113,23 @@ class Actions extends ECS.System {
       door.removeTag('ActionOpen');
       door.removeTag('Impassable');
       door.Door.closed = false;
+      door.addComponent('Timer', {
+        turns: 4,
+        component: {
+          ActionClose: 'tag'
+        }
+      });
+    }
+
+    const doors2 = this.ecs.queryEntities({
+      has: ['ActionClose', 'Door', 'Tile'],
+    });
+    for (const door of doors2) {
+      const frame = door.Tile.frame.replace('open', 'closed');
+      this.level.map.updateSpriteFrame(door.Tile, frame);
+      door.removeTag('ActionClose');
+      door.addTag('Impassable');
+      door.Door.closed = true;
     }
 
   }

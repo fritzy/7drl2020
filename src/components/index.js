@@ -15,6 +15,12 @@ module.exports = {
     }
   },
 
+  Visible: {
+    properties: {
+      seenTick: 0
+    }
+  },
+
   Tile: {
     properties: {
       x: 0,
@@ -29,6 +35,14 @@ module.exports = {
       tile: null,
       frame: ''
     }
+  },
+
+  Timer: {
+    properties: {
+      turns: 0,
+      component: {}
+    },
+    multiset: true
   },
 
   Move: {

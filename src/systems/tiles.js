@@ -26,6 +26,7 @@ class Tiles extends ECS.System {
     }
     for (const entity of newTiles) {
       const tile = entity.Tile;
+      tile.sprite.visible = false;
       const layer = this.level.map.mapEntity.MapLayer[tile.layer];
       this.level.map.updateBySet(layer, tile.x, tile.y, true);
       entity.removeTag('New');

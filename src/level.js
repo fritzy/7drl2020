@@ -10,6 +10,8 @@ const SwitchFrameSystem = require('./systems/switchframes');
 const ActionSystem = require('./systems/actions');
 const DormGen = require('./gen/dorm');
 const Camera = require('./systems/camera');
+const TimerSystem = require('./systems/timer');
+const VisibleSystem = require('./systems/visible');
 let Tween;
 const Filters = require('pixi-filters');
 class Level extends Scene.Scene {
@@ -25,6 +27,8 @@ class Level extends Scene.Scene {
     this.ecs.registerTags(Tags);
     this.ecs.addSystem('2frame', new SwitchFrameSystem(this.ecs, this));
     this.ecs.addSystem('actions', new ActionSystem(this.ecs, this));
+    this.ecs.addSystem('actions', new TimerSystem(this.ecs, this));
+    this.ecs.addSystem('visible', new VisibleSystem(this.ecs, this));
     this.tween = null;
     /*
     this.filters = [new Filters.CRTFilter({
@@ -114,6 +118,7 @@ class Level extends Scene.Scene {
     //this.map.addResources(Pixi.Loader.shared.resources['pit1'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['door0'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['door1'].data.frames);
+    this.map.addResources(Pixi.Loader.shared.resources['deco0'].data.frames);
     this.ui.addChild(this.cursor);
 
     const canvas = this.game.renderer.view;
@@ -171,7 +176,8 @@ class Level extends Scene.Scene {
 
     const dormgen = new DormGen(this.ecs, 50, 50);
     dormgen.work()
-
+    this.ecs.runSystemGroup('tiles');
+    this.ecs.runSystemGroup('visible');
   }
 
   updateMouse(e) {
@@ -228,6 +234,7 @@ class Level extends Scene.Scene {
             break;
         }
         this.ecs.runSystemGroup('actions');
+        this.ecs.runSystemGroup('visible');
         this.ecs.tick();
       }
     }

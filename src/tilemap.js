@@ -20,7 +20,6 @@ module.exports = function (Pixi) {
       this.mapComp = mapEntity.Map;
       this.parent = parent;
       //this.parent.addChild(this);
-      this.layers = {};
       this.tilesByMap = {};
       //this.tiles = {};
       this.gameComp = this.parent.ecs.getEntity('game').Game;
@@ -69,24 +68,6 @@ module.exports = function (Pixi) {
       this.container.scale.x = newScale.x;
       this.container.scale.y = newScale.y;
     }
-
-    /*
-    addLayer(layer) {
-
-      this.layers[layer.name] = layer;
-      this.addChild(layer);
-      layer.setToMap(this);
-    }
-    */
-
-    /*
-    setTile(layer, frame, x, y) {
-
-      const tile = new Tile(frame, x, y, this.tiles[frame], this.layers[layer]);
-      this.layers[layer].setTile(tile, x, y);
-      return tile;
-    }
-    */
 
     getTileInfo(layer, x, y) {
 
@@ -157,8 +138,26 @@ module.exports = function (Pixi) {
       this.updateBySet(layer, x, y, true);
     }
 
+    getTilesAt(x, y) {
+
+      const entities = [];
+      for (const lname of Object.keys(this.mapEntity.MapLayer)) {
+        const layer = this.mapEntity.MapLayer[lname];
+        const tile = this.getTileInfo(layer, x, y);
+        if (tile) {
+          entities.push(tile);
+        }
+      }
+      return entities;
+    }
+
     getTileInfo(layer, x, y) {
 
+      if (typeof layer === 'string') {
+        layer = this.mapEntity.MapLayer[layer];
+      }
+      const entity = layer.tiles[`${x}-${y}`];
+      if (!entity) return undefined;
       return layer.tiles[`${x}-${y}`].Tile;
     }
 

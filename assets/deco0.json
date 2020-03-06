@@ -295,7 +295,7 @@
             },
             "group": "deco"
         },
-        "deco0-0x14": {
+        "deco0-rug-tl": {
             "frame": {
                 "x": 0,
                 "y": 224,
@@ -314,9 +314,11 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "0110"
         },
-        "deco0-0x15": {
+        "deco0-rug-l": {
             "frame": {
                 "x": 0,
                 "y": 240,
@@ -335,9 +337,11 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "1110"
         },
-        "deco0-0x16": {
+        "deco0-rug-bl": {
             "frame": {
                 "x": 0,
                 "y": 256,
@@ -356,7 +360,9 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "1100"
         },
         "deco0-0x17": {
             "frame": {
@@ -758,7 +764,7 @@
             },
             "group": "deco"
         },
-        "deco0-1x14": {
+        "deco0-rug-t": {
             "frame": {
                 "x": 16,
                 "y": 224,
@@ -777,9 +783,11 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "0111"
         },
-        "deco0-1x15": {
+        "deco0-rug-m": {
             "frame": {
                 "x": 16,
                 "y": 240,
@@ -798,9 +806,11 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "1111"
         },
-        "deco0-1x16": {
+        "deco0-rug-b": {
             "frame": {
                 "x": 16,
                 "y": 256,
@@ -819,7 +829,9 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "1101"
         },
         "deco0-1x17": {
             "frame": {
@@ -1221,7 +1233,7 @@
             },
             "group": "deco"
         },
-        "deco0-2x14": {
+        "deco0-rug-tr": {
             "frame": {
                 "x": 32,
                 "y": 224,
@@ -1240,9 +1252,11 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "0011"
         },
-        "deco0-2x15": {
+        "deco0-rug-r": {
             "frame": {
                 "x": 32,
                 "y": 240,
@@ -1261,9 +1275,11 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "1011"
         },
-        "deco0-2x16": {
+        "deco0-rug-br": {
             "frame": {
                 "x": 32,
                 "y": 256,
@@ -1282,7 +1298,9 @@
                 "w": 16,
                 "h": 16
             },
-            "group": "deco"
+            "group": "deco",
+            "set": "rug",
+            "map": "1001"
         },
         "deco0-2x17": {
             "frame": {
