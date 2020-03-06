@@ -1,3 +1,5 @@
+const PF = require('../path');
+
 class Room {
   constructor() {
     this.floorTiles = new Set();
@@ -15,7 +17,9 @@ class DormGen {
     this.ecs = ecs;
     this.width = width;
     this.height = height;
+    this.tiles = [];
     //this.rooms = new Set([this.makeRoom(0, 0, width, height, false)]);
+    this.doors = new Set();
     this.rooms = new Set();
     this.minSize = 5;
     this.outerSize = this.minSize + 2;
@@ -23,6 +27,7 @@ class DormGen {
     this.walls = {};
     this.deletedWalls = 0;
 
+    /*
     let room = this.makeRoom(0, 0, width, 10, false);
     this.rooms.add(room);
     room = this.makeRoom(0, 9, 10, height - 9, false);
@@ -36,6 +41,21 @@ class DormGen {
     room = this.makeRoom(9, height - 10, width - 20, 10, false);
     this.rooms.add(room);
     room = this.makeRoom(width - 12, height - 14, width - 20 - 18, 14, false);
+    this.rooms.add(room);
+    */
+    let room = this.makeRoom(0, 0, width, 10, false);
+    this.rooms.add(room);
+    room = this.makeRoom(0, 9, 10, height - 9, false);
+    this.rooms.add(room);
+    room = this.makeRoom(9, 9, 7, height - 23, true);
+    this.rooms.add(room);
+    room = this.makeRoom(9, height - 15, width - 20, 7, true);
+    this.rooms.add(room);
+    room = this.makeRoom(15, 9, width - 15, height - 23, false);
+    this.rooms.add(room);
+    room = this.makeRoom(9, height - 9, width - 20, 9, false);
+    this.rooms.add(room);
+    room = this.makeRoom(width - 12, height - 15, width - 20 - 18, 15, false);
     this.rooms.add(room);
     //this.setWalls();
     //this.render();
@@ -60,25 +80,102 @@ class DormGen {
         case 0:
           this.splitRoom();
           //this.render()
+          //this.step++;
           break;
         case 1:
           this.setWalls();
           //this.render()
           break;
         case 2:
-          this.deleteWallAt(`11x${this.height - 14}`);
+          this.deleteWallAt(`11x${this.height - 15}`);
           this.step++;
         case 3:
           this.deleteWall();
           //this.render()
           break;
         case 4:
+          this.setDoors();
           this.step++;
           break;
       }
     }
     this.render();
   }
+
+  setDoors() {
+
+    const tiles = [];
+    const grid = new PF.Grid(this.width, this.height);
+    for (let y = 0; y < this.height; y++) {
+      const row = [];
+      for (let x = 0; x < this.width; x++) {
+        row.push(0);
+      }
+      tiles.push(row);
+    }
+    for (const room of this.rooms) {
+      for (const f of room.floor) {
+        let [x, y] = f.split('x');
+        x = parseInt(x, 10);
+        y = parseInt(y, 10);
+        tiles[y][x] = 1
+      }
+    }
+    const pDoors = new Set();
+    for (let y = 0; y < this.height; y++) {
+      for (let x = 0; x < this.width; x++) {
+        if (tiles[y][x] === 0) {
+          if ((y > 0 && tiles[y-1][x] === 1 && y < 49 && tiles[y+1][x] === 1)
+            || (x > 0 && tiles[y][x-1] === 1 && x < 49 && tiles[y][x+1] === 1)) {
+            //wall, but door possible
+            grid.setWalkableAt(x, y, true);
+            grid.setCostAt(x, y, Math.floor(Math.random() * 10) + 5);
+            pDoors.add(`${x}x${y}`);
+          } else {
+            // corner, no doors
+            grid.setWalkableAt(x, y, false);
+          }
+        } else {
+          grid.setWalkableAt(x, y, true);
+          grid.setCostAt(x, y, 1);
+        }
+      }
+    }
+    const astar = new PF.AStarFinder();
+    let sroom = null;
+    for (const room of this.rooms) {
+      if (room.lock) {
+        sroom = room;
+        break;
+      }
+    }
+    const sfloors = [...sroom.floor]
+    const stile = sfloors[Math.floor(Math.random() * sfloors.length)];
+    const scoord = stile.split('x');
+    const startX = parseInt(scoord[0], 10);
+    const startY = parseInt(scoord[1], 10);
+    for (const eroom of this.rooms) {
+      const efloors = [...eroom.floor]
+      const etile = efloors[Math.floor(Math.random() * efloors.length)];
+      const ecoord = etile.split('x');
+      const endX = parseInt(ecoord[0], 10);
+      const endY = parseInt(ecoord[1], 10);
+      const path = astar.findPath(startX, startY, endX, endY, grid.clone());
+      for (const coord of path) {
+        if (tiles[coord[1]][coord[0]] === 0) {
+          pDoors.delete(`${coord[0]}x${coord[1]}`);
+          this.doors.add(`${coord[0]}x${coord[1]}`);
+          grid.setCostAt(coord[0], coord[1], 2);
+        }
+      }
+    }
+    for (let idx = 0; idx < 20; idx++) {
+      const door = [...pDoors][Math.floor(Math.random() * pDoors.size)];
+      this.doors.add(door)
+      pDoors.delete(door);
+    }
+  }
+
 
   setWalls() {
 
@@ -200,15 +297,27 @@ class DormGen {
     for (const tileS of Object.keys(this.walls)) {
       const coord = tileS.split('x');
       //this.display.draw(coord[0], coord[1], '#', 'white');
-      this.ecs.createEntity({
-        tags: ['New', 'Impassable'],
-        Tile: {
-          x: parseInt(coord[0], 10),
-          y: parseInt(coord[1], 10),
-          frame: 'wall-1mm',
-          layer: 'wall'
-        }
-      });
+      if (this.doors.has(tileS)) {
+        this.ecs.createEntity({
+          tags: ['New'],
+          Tile: {
+            x: parseInt(coord[0], 10),
+            y: parseInt(coord[1], 10),
+            frame: 'floor-1s',
+            layer: 'floor'
+          }
+        });
+      } else {
+        this.ecs.createEntity({
+          tags: ['New', 'Impassable'],
+          Tile: {
+            x: parseInt(coord[0], 10),
+            y: parseInt(coord[1], 10),
+            frame: 'wall-1mm',
+            layer: 'wall'
+          }
+        });
+      }
     }
     const proom = Math.floor(this.rooms.size * Math.random());
     let ridx = 0;
