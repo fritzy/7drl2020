@@ -1,5 +1,17 @@
 const PF = require('../path');
 
+function getXY(coord) {
+  const xy = coord.split('x');
+  return { x: parseInt(xy[0], 10), y: parseInt(xy[1], 10) };
+}
+
+function makeCoord(x, y) {
+  if (typeof x === 'object') {
+    return `${x.x}x${x.y}`;
+  }
+  return `${x}x${y}`;
+}
+
 class Room {
   constructor() {
     this.floorTiles = new Set();
@@ -11,12 +23,13 @@ const STEPS = ['split', 'map', 'delete'];
 
 class DormGen {
 
-  constructor(ecs, width, height) {
+  constructor(ecs, opts) {
 
+    this.opts = opts;
     this.step = 0;
     this.ecs = ecs;
-    this.width = width;
-    this.height = height;
+    this.width = opts.width;
+    this.height = opts.height;
     this.tiles = [];
     //this.rooms = new Set([this.makeRoom(0, 0, width, height, false)]);
     this.doors = new Set();
@@ -26,7 +39,10 @@ class DormGen {
     this.done = false;
     this.walls = {};
     this.deletedWalls = 0;
+    const room = this.makeRoom(0, 0, this.width, this.height, false);
+    this.rooms.add(room);
 
+    /*
     let room = this.makeRoom(0, 0, width, 10, false);
     this.rooms.add(room);
     room = this.makeRoom(0, 9, 10, height - 9, false);
@@ -41,6 +57,7 @@ class DormGen {
     this.rooms.add(room);
     room = this.makeRoom(width - 12, height - 15, width - 20 - 18, 15, false);
     this.rooms.add(room);
+    */
     //this.setWalls();
     //this.render();
   }
@@ -72,7 +89,7 @@ class DormGen {
           //this.render()
           break;
         case 2:
-          this.deleteWallAt(`11x${this.height - 15}`);
+          //this.deleteWallAt(`11x${this.height - 15}`);
           this.step++;
         case 3:
           this.deleteWall();
@@ -83,9 +100,9 @@ class DormGen {
           this.step++;
           break;
         case 5:
-          this.setRugs();
-          this.makeRug(10, 10, 5, 31);
-          this.makeRug(16, 36, 22, 5);
+          //this.setRugs();
+          //this.makeRug(10, 10, 5, 31);
+          //this.makeRug(16, 36, 22, 5);
           this.step++;
           break;
       }
@@ -151,7 +168,6 @@ class DormGen {
 
     for (const room of this.rooms) {
       if (room.type === 'hall') {
-        console.log(room);
       }
     }
   }
@@ -179,8 +195,8 @@ class DormGen {
     for (let y = 0; y < this.height; y++) {
       for (let x = 0; x < this.width; x++) {
         if (tiles[y][x] === 0) {
-          if ((y > 0 && tiles[y-1][x] === 1 && y < 49 && tiles[y+1][x] === 1)
-            || (x > 0 && tiles[y][x-1] === 1 && x < 49 && tiles[y][x+1] === 1)) {
+          if ((y > 0 && tiles[y-1][x] === 1 && y < this.width - 1 && tiles[y+1][x] === 1)
+            || (x > 0 && tiles[y][x-1] === 1 && x < this.height - 1 && tiles[y][x+1] === 1)) {
             //wall, but door possible
             grid.setWalkableAt(x, y, true);
             grid.setCostAt(x, y, Math.floor(Math.random() * 10) + 5);
@@ -196,6 +212,7 @@ class DormGen {
       }
     }
     const astar = new PF.AStarFinder();
+    /*
     let sroom = null;
     for (const room of this.rooms) {
       if (room.lock) {
@@ -203,6 +220,8 @@ class DormGen {
         break;
       }
     }
+    */
+    const sroom = [...this.rooms][Math.floor(Math.random() * this.rooms.size)];
     const sfloors = [...sroom.floor]
     const stile = sfloors[Math.floor(Math.random() * sfloors.length)];
     const scoord = stile.split('x');
@@ -223,10 +242,23 @@ class DormGen {
         }
       }
     }
-    for (let idx = 0; idx < 20; idx++) {
-      const door = [...pDoors][Math.floor(Math.random() * pDoors.size)];
-      this.doors.add(door)
-      pDoors.delete(door);
+    for (let idx = 0; idx < this.opts.extraDoors; idx++) {
+      let added = false;
+      do {
+        const door = [...pDoors][Math.floor(Math.random() * pDoors.size)];
+        const coord = door.split('x');
+        const x = parseInt(coord[0], 10);
+        const y = parseInt(coord[1], 10);
+        if (
+          this.doors.has(`${x-1}x${y}`)
+          || this.doors.has(`${x+1}x${y}`)
+          || this.doors.has(`${x}x${y-1}`)
+          || this.doors.has(`${x}x${y+1}`)
+        ) continue;
+        added = true;
+        this.doors.add(door)
+        pDoors.delete(door);
+      } while (!added)
     }
   }
 
@@ -261,13 +293,14 @@ class DormGen {
     let wall, wallIdx;
     let count = 0;
     do {
+      count++;
+      if (walls.length === 0) break;
       wallIdx = walls[Math.floor(Math.random() * walls.length)];
       wall = this.walls[wallIdx];
       const wallarray = [...wall];
       if (wall.size == 2 && !wallarray[0].lock && !wallarray[1].lock) {
         break;
       }
-      count++;
       if (count > 50) {
         this.step++;
         return;
@@ -275,7 +308,7 @@ class DormGen {
     } while (true);
     this.deleteWallAt(wallIdx);
     this.deletedWalls++;
-    if (this.deletedWalls > 35) {
+    if (this.deletedWalls > this.opts.deleteWalls) {
       this.step++;
     }
   }
@@ -402,9 +435,10 @@ class DormGen {
             layer: 'floor'
           }
         });
-        if (Math.floor(Math.random() * 100)  === 1) {
+        if (Math.floor(Math.random() * 50)  === 1) {
+          const colors = ['red', 'green','orange'];
           entity.addComponent('LightSource', {
-            color: '#f7fae8'
+            color: colors[Math.floor(Math.random() * 3)]
           });
         }
         if (ridx === proom && fidx === pfloor) {
@@ -421,6 +455,24 @@ class DormGen {
               radius: 3
             }
           });
+        } else {
+          if (2 === Math.floor(Math.random() * 100)) {
+            this.ecs.createEntity({
+              tags: ['New', 'NPC'],
+              Tile: {
+                x: parseInt(fcoord[0], 10),
+                y: parseInt(fcoord[1], 10),
+                frame: 'humanoid0-1x3',
+                layer: 'char'
+              },
+              /*
+              LightSource: {
+                color: '#f7fae8',
+                radius: 3
+              }
+              */
+            });
+          }
         }
         fidx++;
       }

@@ -639,6 +639,7 @@
             },
             "rotated": false,
             "trimmed": false,
+            "nextFrame": "humanoid0-1x3",
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0,

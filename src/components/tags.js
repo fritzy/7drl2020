@@ -6,5 +6,6 @@ module.exports = [
   'ActionOpen',
   'ActionClose',
   'Seen',
-  'Flicker'
+  'Flicker',
+  'NPC'
 ];

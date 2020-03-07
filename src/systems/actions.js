@@ -26,6 +26,7 @@ class Actions extends ECS.System {
         tile.facing = 'left';
         this.level.map.updateSpriteFrame(tile, tile.frame);
       }
+      this.level.log(`Moving: ${move.x}x${move.y} and I'm not quite sure how to feel about it.`);
       const newX = tile.x + move.x;
       const newY = tile.y + move.y;
       const target = `${newX}-${newY}`;
@@ -37,7 +38,7 @@ class Actions extends ECS.System {
       }
       if (
         (targetWall === undefined || !targetWall.tags.has('Impassable'))
-        && (targetChar === undefined || !targetChar.tags.has('Impassable'))
+        && (!targetChar)
       ) {
         tile.offX = -move.x * 16;
         tile.offY = -move.y * 16;

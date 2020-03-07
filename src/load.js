@@ -26,6 +26,7 @@ const load = () => {
     loader.add('deco1', 'assets/deco1.json');
     loader.add('door0', 'assets/door0.json');
     loader.add('door1', 'assets/door1.json');
+    loader.add('cdogs', 'assets/cdogs.json');
 
     const chars = ['player', 'aquatic', 'avian', 'cat', 'dog', 'elemental', 'humanoid', 'misc', 'pest', 'plant', 'quadraped', 'reptile', 'rodent', 'slime', 'undead'];
 

@@ -114,6 +114,36 @@ module.exports = {
       y: 0
     },
     multiset: true
+  },
+
+  ActionMelee: {
+    properties: {
+      direction: 'right'
+    }
+  },
+
+  Text: {
+    properties: {
+      text: '',
+      sprite: null
+    }
+  },
+
+  Console: {
+    properties: {
+      container: null,
+      textarea: null,
+      texts: '<EntitySet>',
+      x: '<Pointer container.position.x>',
+      y: '<Pointer container.position.y>'
+    }
+  },
+
+  Health: {
+    properties: {
+      maxhp: 10,
+      hp: 10
+    }
   }
 
 };

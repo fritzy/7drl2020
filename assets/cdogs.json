@@ -1,0 +1,1667 @@
+{
+  "frames": {
+    "cdogs_font_65": {
+      "frame": {
+        "x": 7,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_66": {
+      "frame": {
+        "x": 14,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_67": {
+      "frame": {
+        "x": 21,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_68": {
+      "frame": {
+        "x": 28,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_69": {
+      "frame": {
+        "x": 35,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_70": {
+      "frame": {
+        "x": 42,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_71": {
+      "frame": {
+        "x": 49,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_72": {
+      "frame": {
+        "x": 56,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_73": {
+      "frame": {
+        "x": 63,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_74": {
+      "frame": {
+        "x": 70,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_75": {
+      "frame": {
+        "x": 77,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_76": {
+      "frame": {
+        "x": 84,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_77": {
+      "frame": {
+        "x": 91,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_78": {
+      "frame": {
+        "x": 98,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_79": {
+      "frame": {
+        "x": 105,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_80": {
+      "frame": {
+        "x": 112,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_81": {
+      "frame": {
+        "x": 119,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_82": {
+      "frame": {
+        "x": 126,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_83": {
+      "frame": {
+        "x": 133,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_84": {
+      "frame": {
+        "x": 140,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_85": {
+      "frame": {
+        "x": 147,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_86": {
+      "frame": {
+        "x": 154,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_87": {
+      "frame": {
+        "x": 161,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_88": {
+      "frame": {
+        "x": 168,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_89": {
+      "frame": {
+        "x": 175,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_90": {
+      "frame": {
+        "x": 182,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_92": {
+      "frame": {
+        "x": 196,
+        "y": 16,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_33": {
+      "frame": {
+        "x": 7,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_34": {
+      "frame": {
+        "x": 14,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_35": {
+      "frame": {
+        "x": 21,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_37": {
+      "frame": {
+        "x": 35,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_39": {
+      "frame": {
+        "x": 49,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_40": {
+      "frame": {
+        "x": 56,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_41": {
+      "frame": {
+        "x": 63,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_43": {
+      "frame": {
+        "x": 77,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_44": {
+      "frame": {
+        "x": 84,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_45": {
+      "frame": {
+        "x": 91,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_46": {
+      "frame": {
+        "x": 98,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_47": {
+      "frame": {
+        "x": 105,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_48": {
+      "frame": {
+        "x": 112,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_49": {
+      "frame": {
+        "x": 119,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_50": {
+      "frame": {
+        "x": 126,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_51": {
+      "frame": {
+        "x": 133,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_52": {
+      "frame": {
+        "x": 140,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_53": {
+      "frame": {
+        "x": 147,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_54": {
+      "frame": {
+        "x": 154,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_55": {
+      "frame": {
+        "x": 161,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_56": {
+      "frame": {
+        "x": 168,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_57": {
+      "frame": {
+        "x": 175,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_58": {
+      "frame": {
+        "x": 182,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_59": {
+      "frame": {
+        "x": 189,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_61": {
+      "frame": {
+        "x": 203,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_63": {
+      "frame": {
+        "x": 217,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_97": {
+      "frame": {
+        "x": 7,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_98": {
+      "frame": {
+        "x": 14,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_99": {
+      "frame": {
+        "x": 21,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_100": {
+      "frame": {
+        "x": 28,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_101": {
+      "frame": {
+        "x": 35,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_102": {
+      "frame": {
+        "x": 42,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_103": {
+      "frame": {
+        "x": 49,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_104": {
+      "frame": {
+        "x": 56,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_105": {
+      "frame": {
+        "x": 63,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_106": {
+      "frame": {
+        "x": 70,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_107": {
+      "frame": {
+        "x": 77,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_108": {
+      "frame": {
+        "x": 84,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_109": {
+      "frame": {
+        "x": 91,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_110": {
+      "frame": {
+        "x": 98,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_111": {
+      "frame": {
+        "x": 105,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_112": {
+      "frame": {
+        "x": 112,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_113": {
+      "frame": {
+        "x": 119,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_114": {
+      "frame": {
+        "x": 126,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_115": {
+      "frame": {
+        "x": 133,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_116": {
+      "frame": {
+        "x": 140,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_117": {
+      "frame": {
+        "x": 147,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_118": {
+      "frame": {
+        "x": 154,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_119": {
+      "frame": {
+        "x": 161,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_120": {
+      "frame": {
+        "x": 168,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_121": {
+      "frame": {
+        "x": 175,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_122": {
+      "frame": {
+        "x": 182,
+        "y": 24,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_62": {
+      "frame": {
+        "x": 112,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_60": {
+      "frame": {
+        "x": 119,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_94": {
+      "frame": {
+        "x": 210,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "cdogs_font_42": {
+      "frame": {
+        "x": 217,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    }
+  },
+  "meta": {
+    "image": "cdogs_font_7x8.png"
+  }
+}

@@ -13,6 +13,7 @@ const Camera = require('./systems/camera');
 const TimerSystem = require('./systems/timer');
 const VisibleSystem = require('./systems/visible');
 const LightSystem = require('./systems/light');
+const ConsoleSystem = require('./systems/console');
 let Tween;
 const Filters = require('pixi-filters');
 class Level extends Scene.Scene {
@@ -114,13 +115,22 @@ class Level extends Scene.Scene {
 
     this.map.addResources(Pixi.Loader.shared.resources['assets/floor.json'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['assets/wall.json'].data.frames);
-    this.map.addResources(Pixi.Loader.shared.resources['player0'].data.frames);
-    this.map.addResources(Pixi.Loader.shared.resources['player1'].data.frames);
+    //this.map.addResources(Pixi.Loader.shared.resources['player0'].data.frames);
+    //this.map.addResources(Pixi.Loader.shared.resources['player1'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['pit0'].data.frames);
     //this.map.addResources(Pixi.Loader.shared.resources['pit1'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['door0'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['door1'].data.frames);
     this.map.addResources(Pixi.Loader.shared.resources['deco0'].data.frames);
+    this.map.addResources(Pixi.Loader.shared.resources['humanoid0'].data.frames);
+    this.map.addResources(Pixi.Loader.shared.resources['humanoid1'].data.frames);
+    const chars = ['player', 'aquatic', 'avian', 'cat', 'dog', 'elemental', 'humanoid', 'misc', 'pest', 'plant', 'quadraped', 'reptile', 'rodent', 'slime', 'undead'];
+
+    for (const char of chars) {
+      this.map.addResources(Pixi.Loader.shared.resources[`${char}0`].data.frames);
+      this.map.addResources(Pixi.Loader.shared.resources[`${char}1`].data.frames);
+    }
+
     this.ui.addChild(this.cursor);
 
     const canvas = this.game.renderer.view;
@@ -176,10 +186,19 @@ class Level extends Scene.Scene {
       e.preventDefault();
     });
 
-    const dormgen = new DormGen(this.ecs, 50, 50);
+    const dormgen = new DormGen(this.ecs, {
+      width: 30,
+      height: 30,
+      extraDoors: 10,
+      deleteWalls: 7
+    });
     dormgen.work()
     this.ecs.runSystemGroup('tiles');
     this.ecs.runSystemGroup('visible');
+
+    this.ecs.addSystem('console', new ConsoleSystem(this.ecs, this));
+    this.ecs.runSystemGroup('console');
+
   }
 
   updateMouse(e) {
@@ -189,6 +208,15 @@ class Level extends Scene.Scene {
   }
 
   tearDown() {
+  }
+
+  log(text) {
+    this.ecs.createEntity({
+      tags: ['New'],
+      Text: {
+        text: text
+      }
+    });
   }
 
   update(dt, df, time) {
@@ -237,11 +265,11 @@ class Level extends Scene.Scene {
         }
         this.ecs.runSystemGroup('actions');
         this.ecs.runSystemGroup('visible');
+        this.ecs.runSystemGroup('console');
         this.ecs.tick();
       }
     }
     this.ecs.runSystemGroup('animation');
-
   }
 }
 

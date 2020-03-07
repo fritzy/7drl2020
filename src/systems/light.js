@@ -1,6 +1,7 @@
 const ECS = require('@fritzy/ecs');
 const ROT = require('rot-js');
 const Color = require('color');
+const dark = Color('#d1daff').darken(.75).rgbNumber();
 
 class LightSystem extends ECS.System {
 
@@ -25,9 +26,11 @@ class LightSystem extends ECS.System {
           light.entity.removeComponent(light);
         }
         if (!entity.Light && entity.Tile) {
-            const color = Color('#d1daff').darken(.75).rgbNumber();
-            entity.Tile.sprite.tint = color;
-            entity.removeTag('Flicker');
+          entity.Tile.sprite.tint = dark;
+          entity.removeTag('Flicker');
+          if (entity.tags.has('NPC')) {
+            entity.Tile.sprite.visible = false;
+          }
         }
       }
       const fov = new ROT.FOV.RecursiveShadowcasting(this.passable.bind(this));
