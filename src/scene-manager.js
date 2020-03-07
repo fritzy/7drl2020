@@ -16,7 +16,6 @@ class Manager {
 
   async addScene(name, scene) {
 
-    console.log('adding scene', scene);
     this.stage.addChild(scene);
     await scene.standUp();
     //scene.setParent(this);
@@ -35,8 +34,6 @@ class Manager {
   }
 
   start() {
-
-    console.log('start');
 
     if (!this.paused)
       return this.update(0);

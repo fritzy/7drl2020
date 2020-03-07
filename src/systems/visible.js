@@ -20,7 +20,7 @@ class VisibleSystem extends ECS.System {
     if (entities.size > 0) {
       const player = [...entities][0];
 
-      const fov = new ROT.FOV.RecursiveShadowcasting(this.passable.bind(this));
+      const fov = new ROT.FOV.PreciseShadowcasting(this.passable.bind(this));
       fov.compute(player.Tile.x, player.Tile.y, 20, (x, y, r, v) => {
         const tiles = this.level.map.getTilesAt(x, y);
         for (const tile of tiles) {
@@ -52,7 +52,8 @@ class VisibleSystem extends ECS.System {
                   || (py > ey && ey > sy)) continue;
               }
               const c = Color(light.tint);
-              if (color && color.hex() !== c.hex()) {
+              //if (color && color.hex() !== c.hex()) {
+              if (color) {
                 color = color.mix(c);
               } else {
                 color = c;

@@ -120,6 +120,13 @@ class Actions extends ECS.System {
           ActionClose: 'tag'
         }
       });
+      if (door.has('Light')) {
+        for (const light of door.Light) {
+          if (!light.source.has('Character')) {
+            light.source.addTag('UpdateLightSource');
+          }
+        }
+      }
     }
 
     const doors2 = this.ecs.queryEntities({
@@ -131,6 +138,13 @@ class Actions extends ECS.System {
       door.removeTag('ActionClose');
       door.addTag('Impassable');
       door.Door.closed = true;
+      if (door.has('Light')) {
+        for (const light of door.Light) {
+          if (!light.source.has('Character')) {
+            light.source.addTag('UpdateLightSource');
+          }
+        }
+      }
     }
 
   }

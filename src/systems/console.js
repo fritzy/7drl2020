@@ -117,6 +117,7 @@ class ConsoleSystem extends ECS.System {
       this.console.Console.texts.delete(entity);
       entity.destroy();
     }
+    y += (36 - this.console.Console.texts.size) * 8;
     for (const entity of this.console.Console.texts) {
       entity.Text.sprite.position.y = y;
       y += 8;

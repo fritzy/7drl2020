@@ -221,6 +221,7 @@ class Level extends Scene.Scene {
         text: text
       }
     });
+    console.log(text);
   }
 
   update(dt, df, time) {

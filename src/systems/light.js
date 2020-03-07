@@ -17,8 +17,15 @@ class LightSystem extends ECS.System {
       has: ['LightSource'],
       updatedValues: this.ecs.ticks
     });
+    const entities3 = this.ecs.queryEntities({
+      has: ['UpdateLightSource'],
+    });
+    for (const entity of entities3) {
+      entities.add(entity);
+    }
     let idx = 0;
     for (const source of entities) {
+      source.removeTag('UpdateLightSource');
       idx++;
       for (const light of this.ecs.getComponents('Light')) {
         const entity = light.entity
@@ -28,16 +35,14 @@ class LightSystem extends ECS.System {
         if (!entity.Light && entity.Tile) {
           entity.Tile.sprite.tint = dark;
           if (!entity.Visible) {
-            entity.Tile.sprite.visible = false;
+            //entity.Tile.sprite.visible = false;
           }
-          entity.removeTag('Flicker');
           if (entity.tags.has('NPC')) {
             entity.Tile.sprite.visible = false;
           }
         }
       }
-      const fov = new ROT.FOV.RecursiveShadowcasting(this.passable.bind(this));
-      const used = new Set();
+      const fov = new ROT.FOV.RecursiveShadowcasting(this.passable.bind(this)); const used = new Set();
       fov.compute(source.Tile.x, source.Tile.y, source.LightSource.radius, (x, y, r, v) => {
         const coord = `${x}x${y}`;
         if (used.has(coord)) {
@@ -51,9 +56,9 @@ class LightSystem extends ECS.System {
           const d = this.level.tween.Easing.Quartic.In(r / 6) *.75;
           entity.addComponent('Light', {
             tint: color.darken(1 - v + d).rgbNumber(),
+            tint: color.rgbNumber(),
             source: source
           });
-          entity.addTag('Flicker');
         }
       });
     }
@@ -61,7 +66,6 @@ class LightSystem extends ECS.System {
       has: ['UpdateLighting', 'Character']
     });
     for (const entity of entities2) {
-      console.log(entity);
       for (const light of entity.Light) {
         entity.removeComponent(light);
       }

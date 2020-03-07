@@ -9,5 +9,6 @@ module.exports = [
   'Flicker',
   'NPC',
   'UpdateLighting',
+  'UpdateLightSource',
   'Character'
 ];

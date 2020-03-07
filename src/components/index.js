@@ -118,7 +118,7 @@ module.exports = {
 
   ActionMelee: {
     properties: {
-      direction: 'right'
+      target: '<Entity>'
     }
   },
 
@@ -136,6 +136,12 @@ module.exports = {
       texts: '<EntitySet>',
       x: '<Pointer container.position.x>',
       y: '<Pointer container.position.y>'
+    }
+  },
+
+  Attack: {
+    properties: {
+      hp: 3
     }
   },
 
