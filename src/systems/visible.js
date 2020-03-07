@@ -21,7 +21,7 @@ class VisibleSystem extends ECS.System {
       const player = [...entities][0];
 
       const fov = new ROT.FOV.PreciseShadowcasting(this.passable.bind(this));
-      fov.compute(player.Tile.x, player.Tile.y, 20, (x, y, r, v) => {
+      fov.compute(player.Tile.x, player.Tile.y, 10, (x, y, r, v) => {
         const tiles = this.level.map.getTilesAt(x, y);
         for (const tile of tiles) {
           const entity = tile.entity;

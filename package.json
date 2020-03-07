@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fritzy/ecs": "^0.5.0",
+    "@fritzy/ecs": "^0.5.2",
     "@tweenjs/tween.js": "^18.5.0",
     "color": "^3.1.2",
     "heap": "^0.2.6",
