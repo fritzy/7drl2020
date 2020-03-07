@@ -600,6 +600,26 @@
         "h": 8
       }
     },
+    "cdogs_font_64": {
+      "frame": {
+        "x": 28,
+        "y": 8,
+        "w": 7,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
     "cdogs_font_37": {
       "frame": {
         "x": 35,

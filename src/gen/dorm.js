@@ -443,7 +443,7 @@ class DormGen {
         }
         if (ridx === proom && fidx === pfloor) {
           this.ecs.createEntity({
-            tags: ['New', 'Player'],
+            tags: ['New', 'Player', 'Character'],
             Tile: {
               x: parseInt(fcoord[0], 10),
               y: parseInt(fcoord[1], 10),
@@ -458,7 +458,7 @@ class DormGen {
         } else {
           if (2 === Math.floor(Math.random() * 100)) {
             this.ecs.createEntity({
-              tags: ['New', 'NPC'],
+              tags: ['New', 'NPC', 'Character'],
               Tile: {
                 x: parseInt(fcoord[0], 10),
                 y: parseInt(fcoord[1], 10),

@@ -64,9 +64,11 @@ class VisibleSystem extends ECS.System {
               const d = this.level.tween.Easing.Quartic.In(r / 6) *.75;
               entity.Tile.sprite.tint = color.rgbNumber();
             } else {
+              if (entity.tags.has('Character')) entity.Tile.sprite.visible = false;
               entity.Tile.sprite.tint = dark;
             }
           } else {
+            if (entity.tags.has('Character')) entity.Tile.sprite.visible = false;
             entity.Tile.sprite.tint = dark;
           }
         }
@@ -75,6 +77,7 @@ class VisibleSystem extends ECS.System {
       for (const entity of visE) {
         if (entity.Visible.seenTick !== this.ecs.ticks) {
           entity.removeComponent(entity.Visible);
+          if (entity.tags.has('Character')) entity.Tile.sprite.visible = false;
           //entity.Tile.sprite.visible = false;
           entity.Tile.sprite.tint = dark;
         }

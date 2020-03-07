@@ -26,7 +26,6 @@ class Actions extends ECS.System {
         tile.facing = 'left';
         this.level.map.updateSpriteFrame(tile, tile.frame);
       }
-      this.level.log(`Moving: ${move.x}x${move.y} and I'm not quite sure how to feel about it.`);
       const newX = tile.x + move.x;
       const newY = tile.y + move.y;
       const target = `${newX}-${newY}`;
@@ -66,6 +65,7 @@ class Actions extends ECS.System {
           .to({ y: 1, x: 1 }, 100);
         tween3.chain(tween4);
         tween3.start();
+        entity.addTag('UpdateLighting');
 
         const anim1 = entity.addComponent('Animation', { tween: tween });
         const anim2 = entity.addComponent('Animation', { tween: tween2 });

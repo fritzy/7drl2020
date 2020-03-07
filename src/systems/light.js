@@ -27,6 +27,9 @@ class LightSystem extends ECS.System {
         }
         if (!entity.Light && entity.Tile) {
           entity.Tile.sprite.tint = dark;
+          if (!entity.Visible) {
+            entity.Tile.sprite.visible = false;
+          }
           entity.removeTag('Flicker');
           if (entity.tags.has('NPC')) {
             entity.Tile.sprite.visible = false;
@@ -53,6 +56,25 @@ class LightSystem extends ECS.System {
           entity.addTag('Flicker');
         }
       });
+    }
+    const entities2 = this.ecs.queryEntities({
+      has: ['UpdateLighting', 'Character']
+    });
+    for (const entity of entities2) {
+      console.log(entity);
+      for (const light of entity.Light) {
+        entity.removeComponent(light);
+      }
+      const tile = this.level.map.getTileInfo('floor', entity.Tile.x, entity.Tile.y);
+      if (tile.entity.Light) {
+        for (const light of tile.entity.Light) {
+          entity.addComponent('Light', {
+            tint: light.tint,
+            source: light.source
+          });
+        }
+      }
+      entity.removeTag('UpdateLighting');
     }
   }
 

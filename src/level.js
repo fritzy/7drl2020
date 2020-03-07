@@ -195,6 +195,10 @@ class Level extends Scene.Scene {
     dormgen.work()
     this.ecs.runSystemGroup('tiles');
     this.ecs.runSystemGroup('visible');
+    this.log('Rise-Up v0.1');
+    this.log('By Nathan Fritz');
+    this.log('@fritzy');
+    this.log('--------------');
 
     this.ecs.addSystem('console', new ConsoleSystem(this.ecs, this));
     this.ecs.runSystemGroup('console');

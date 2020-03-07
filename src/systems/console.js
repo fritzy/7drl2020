@@ -31,7 +31,8 @@ const charWidth = {
   e: 4,
   s: 4,
   t: 4,
-  l: 2
+  l: 2,
+  '@':6
 };
 
 class ConsoleSystem extends ECS.System {
@@ -48,7 +49,7 @@ class ConsoleSystem extends ECS.System {
       Console: {
       }
     });
-    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567890\'"!.,%#/\\-><^*?:;'.split('');
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567890\'"!.,%#/\\-><^*?:;@'.split('');
     this.charTexture = {};
     for (const char of chars) {
       this.charTexture[char] = Pixi.Texture.from(`cdogs_font_${char.charCodeAt(0)}`)

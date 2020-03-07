@@ -6,7 +6,7 @@ const frames = {
   }
 };
 
-const punc = "!\"# % '() +,-./0123456789:; = ?";
+const punc = "!\"#@% '() +,-./0123456789:; = ?";
 const caps = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ \\'.split('');
 const lows = 'abcdefghijklmnopqrstuvwxyz'.split('');
 

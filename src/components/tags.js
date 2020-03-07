@@ -7,5 +7,7 @@ module.exports = [
   'ActionClose',
   'Seen',
   'Flicker',
-  'NPC'
+  'NPC',
+  'UpdateLighting',
+  'Character'
 ];
