@@ -78,7 +78,6 @@ class VisibleSystem extends ECS.System {
         if (entity.Visible.seenTick !== this.ecs.ticks) {
           entity.removeComponent(entity.Visible);
           if (entity.tags.has('Character')) entity.Tile.sprite.visible = false;
-          //entity.Tile.sprite.visible = false;
           entity.Tile.sprite.tint = dark;
         }
       }
