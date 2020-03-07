@@ -1,6 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
-webpack --config ./webpack.prod.config.js
-cp -R assets build/
-cp -R index.html build/
+./build.sh
 butler push build fritzy/rise-up:web
